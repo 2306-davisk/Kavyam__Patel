@@ -2902,7 +2902,6 @@ textarea.form-control-lg {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  vertical-align: middle;
   background-color: #fff;
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
   background-repeat: no-repeat;
@@ -6785,7 +6784,7 @@ fieldset:disabled .btn {
   max-width: 100%;
   font-size: 0.875rem;
   pointer-events: auto;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, o.85);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
@@ -13554,3 +13553,99 @@ fieldset:disabled .btn {
 /* Custom */
 
 trans {color:rgba(0, 0, 0, 0)}
+.subject-botton {
+  padding: 15px; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+  text-decoration: none;
+}
+.subject-description  {
+  color: rgba(255, 255, 255, 1);
+  margin: auto;
+  margin-top: 4%;
+  text-align: center;
+  font-family: "Open Sans", sans-serif; 
+}
+@media (max-width: 992px) {
+  .subject-description  {margin-top: 5%;}
+  .subject-botton {padding: 5px;}
+}
+@media (min-width: 992px) {
+  .subject-botton::before {
+    content: "--";
+    color:rgba(0, 0, 0, 0)
+  }
+  .subject-botton::after {
+    content: "--";
+    color:rgba(0, 0, 0, 0)
+  }
+  .custom-drive-button  {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    margin-top: 1px;
+  }
+  .long-button::after {content: "--."; color: rgba(0, 0, 0, 0);}
+  .long-button::before {content: "--."; color: rgba(0, 0, 0, 0);}
+  .custom-drive-button::after {content: "--."; color: rgba(0, 0, 0, 0);}
+  .custom-drive-button::before {content: "."; color: rgba(0, 0, 0, 0);}
+}
+@media (min-width: 550px) {
+  .subject-botton::before {
+    content: "-";
+    color:rgba(0, 0, 0, 0)
+  }
+  .subject-botton::after {
+    content: "-";
+    color:rgba(0, 0, 0, 0)
+  }
+  .two-buttom-table {width: 100;}
+  .two-bottom::after  {content: "------"; color: rgba(0, 0, 0, 0);}
+  .two-bottom::before {content: "------"; color: rgba(0, 0, 0, 0);}
+  .p_a-space  {color: rgba(0, 0, 0, 0); font-size: x-small;}
+}
+@media (max-width: 550px) {
+  .subject-description  {margin-top: 5%;}
+  .subject-botton {padding: 10px;}
+  .two-buttom-table {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .two-bottom::after  {content: "--"; color: rgba(0, 0, 0, 0);}
+  .two-bottom::before {content: "--"; color: rgba(0, 0, 0, 0);}
+}
+
+@media (max-width: 992px) {
+  .custom-drive-button  {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+    margin-top: 1px;
+  }
+}
+.image-gd {height: 36px; width: 36px;};
+
+.image-bx {
+  color: inherit;
+  height: 36px;
+  width: 36px;
+  margin: auto;
+}
+.class::after  {
+  content: 'Class ';
+  color: inherit;
+  font: inherit;
+}
+.A_10::after {
+  content: "10 A";
+  font: inherit;
+  font-weight: bold;
+}
+.roll::after  {
+  content: "Roll No ";
+  font: inherit;
+}
+.two::after {
+  content: "22";
+  font: inherit;
+  font-weight: bold;
+}
