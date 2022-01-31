@@ -40,7 +40,7 @@ p, a {font-weight: 400;}
   width: 150px;
   display:block;
   position: absolute;
-  border-bottom:  5px solid #6266ea;
+  border-bottom:  5px solid #2c2e6e;
   padding-top: .5em;
 }
 .typo-space-line-center::after {
@@ -190,3 +190,39 @@ footer a.text-light:hover {
   color: #bfbfbf !important;
   transition-duration: 0.15s;
 }
+
+/*custom*/
+.typo-space::after {
+  content: "";
+  width: 200px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #9fa2ff;
+  padding-top: .5em;
+}
+.typo-space-line-large::after {
+  content: "";
+  width: 255px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
+.typo-space-line-Act::after {
+  content: "";
+  width: 160px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
+.typo-space-aac::after {
+  content: "";
+  width: 230px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
+.l  {color: inherit; text-decoration: none;}
+.l:hover  {color: inherit; text-decoration: none;}
