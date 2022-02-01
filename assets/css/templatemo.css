@@ -224,5 +224,13 @@ footer a.text-light:hover {
   border-bottom:  5px solid #4232c2;
   padding-top: .5em;
 }
+.typo-space-line-practicals::after  {
+  content: "";
+  width: 280px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
 .l  {color: inherit; text-decoration: none;}
 .l:hover  {color: inherit; text-decoration: none;}
