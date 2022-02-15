@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+.wrapper-coming-soon {
+  width: 100vw;
+  text-align: center;
+}
+.wrapper-coming-soon span {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-size: 100px;
+  text-shadow: 0 0px #00237a, 0 0px #04375c;
+  transform: translate(0, 100%) rotate(4deg);
+  animation: jump 2s ease-in-out infinite;
+  display: inline-block;
+  font-family: "Titan One", cursive;
+  color: rgb(255, 255, 255);
+}
+.wrapper-coming-soon span:nth-child(1) {
+  animation-delay: 120ms;
+}
+.wrapper-coming-soon span:nth-child(2) {
+  animation-delay: 240ms;
+}
+.wrapper-coming-soon span:nth-child(3) {
+  animation-delay: 360ms;
+}
+.wrapper-coming-soon span:nth-child(4) {
+  animation-delay: 480ms;
+}
+.wrapper-coming-soon span:nth-child(5) {
+  animation-delay: 600ms;
+}
+.wrapper-coming-soon span:nth-child(6) {
+  animation-delay: 720ms;
+}
+.wrapper-coming-soon span:nth-child(7) {
+  animation-delay: 840ms;
+}
+.wrapper-coming-soon span:nth-child(8) {
+  animation-delay: 960ms;
+}
+.wrapper-coming-soon span:nth-child(9) {
+  animation-delay: 1080ms;
+}
+.wrapper-coming-soon span:nth-child(10) {
+  animation-delay: 1200ms;
+}
+.wrapper-coming-soon span:nth-child(11) {
+  animation-delay: 1320ms;
+}
+@keyframes jump {
+  33% {
+    text-shadow: 0 60px #04375c, 0 150px #182545;
+  }
+  50% {
+    transform: translate(0, 0) rotate(-4deg);
+    text-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+  }
+  66.67% {
+    text-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+  }
+}
+@media screen and (max-height: 500px) {
+    .wrapper-coming-soon {
+      transform: scale(0.001, 0.001);
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .wrapper-coming-soon span {
+      font-size: 40px;
+      -webkit-text-stroke-width: 1.2px;
+    }
+  }
