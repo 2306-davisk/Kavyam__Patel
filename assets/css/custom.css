@@ -70,3 +70,67 @@
       -webkit-text-stroke-width: 1.2px;
     }
   }
+
+
+
+
+  
+  .wrapper-coming-404 {
+    width: 100vw;
+    text-align: center;
+  }
+  .wrapper-coming-404 span {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-shadow: 0 0px #000000, 0 0px #000000;
+    transform: translate(0, 100%) rotate(4deg);
+    animation: jump 1.9s ease-in-out infinite;
+    display: inline-block;
+    font-family: "Titan One", cursive;
+    color: rgb(255, 255, 255);
+  }
+  .wrapper-coming-404 span:nth-child(1) {
+    animation-delay: 120ms;
+  }
+  .wrapper-coming-404 span:nth-child(2) {
+    animation-delay: 240ms;
+  }
+  .wrapper-coming-404 span:nth-child(3) {
+    animation-delay: 360ms;
+  }
+  @keyframes jump {
+    33% {
+      text-shadow: 0 60px #ff0000, 0 150px #ff0000;
+    }
+    50% {
+      transform: translate(0, 0) rotate(-3deg);
+      text-shadow: 0 0px #751717, 0 0px #84a9ac;
+    }
+    66.67% {
+      text-shadow: 0 -60px #aa0000, 0 -150px #770000;
+    }
+  }
+  @media screen and (max-height: 500px) {
+      .wrapper-coming-404 {
+        transform: scale(0.001, 0.001);
+      }
+    }
+    @media screen and (max-width: 576px) {
+      .wrapper-coming-404 span {
+        font-size: 40px;
+        -webkit-text-stroke-width: 1.2px;
+      }
+    }
+
+
+
+    *{-webkit-box-sizing:border-box;box-sizing:border-box}
+    body{padding:0;margin:0}#notfound{position:relative;height:100vh}#notfound 
+    .notfound{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+    .notfound{max-width:410px;width:100%;text-align:center}
+    .notfound .notfound-404{height:280px;position:relative;z-index:-1}
+    .notfound .notfound-404 h1{font-family:montserrat,sans-serif;font-size:230px;margin:0;font-weight:900;position:absolute;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);background-color: #012f8b;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-size:cover;background-position:center}
+    .notfound h2{font-family:montserrat,sans-serif;color:#000;font-size:24px;font-weight:700;text-transform:uppercase;margin-top:0}
+    .notfound p{font-family:montserrat,sans-serif;color:#000;font-size:14px;font-weight:400;margin-bottom:20px;margin-top:0}
+    .notfound a{font-family:montserrat,sans-serif;font-size:14px;text-decoration:none;text-transform:uppercase;background:#0046d5;display:inline-block;padding:15px 30px;border-radius:40px;color:#fff;font-weight:700;-webkit-box-shadow:0 4px 15px -5px #0046d5;box-shadow:0 4px 15px -5px #0046d5}@media only screen and (max-width:767px){.notfound .notfound-404{height:142px}.notfound .notfound-404 h1{font-size:112px}}
