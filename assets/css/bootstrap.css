@@ -8274,8 +8274,9 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .shadow {
-  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
-          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3) !important;
+  transition-duration: 0.7s;    
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
