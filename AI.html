@@ -26,11 +26,19 @@
 
         gtag('config', 'G-WKEQ45L5YZ');
     </script>
+    <style>
+    body {overflow-x: hidden;}
+    .no-hover-change:hover  {
+        color: rgba(255,255,255,0);
+        background-color: rgba(255,255,255,0);
+    }
+
+    </style>
 </head>
 <body>
     
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="index.html">
                 <span class="text-dark h4">22</span> <span class="text-primary h4">Kavyam Patel</span> <span class="text-dark h4">10 A</span>
@@ -43,22 +51,22 @@
                 <div class="flex-fill mx-xl-5 mb-2">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button" href="#">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button no-hover-change" href="#">
                                 <trans><i class='bx bx-spreadsheet'></i>
                                 Activities</trans></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button" href="#journal">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#journal">
                                 <i class='bx bx-pencil'></i>
                                 Journal</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button" href="#about">
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
                                 <i class='bx bxs-user-detail image-bx'></i>
                                 About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
+                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
                             target="About_Blank" rel="noopener noreferrer" style="color: white;">
                             <i class='bx bxl-google' ></i>
                             Drive</a>
@@ -72,12 +80,13 @@
 
 
     <!-- Start Banner Hero -->
-    <div id="work_single_banner" class="bg-light w-100">
+    <div id="work_single_banner" class="bg-light w-100 paralax-sub">
         <div class="container-fluid text-light d-flex justify-content-center align-items-center border-0 rounded-0 p-0 py-5">
             <div class="banner-content col-lg-8 m-lg-auto text-center py-5 px-3">
-                <h1 class="banner-heading h2 pb-5 typo-space-line">Artificial Inteligence and Python Programing</h1>
+                <h1 class="banner-heading h2 pb-5">Artificial Inteligence and Python Programing</h1>
                 <h3 class="h4 pb-2 light-300">Artificial Intelligence is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.</h3>
                 <p class="banner-footer light-300"></p>
+                <div id="work_single_banner" class="paralax-sub"></div>
             </div>
         </div>
     </div>
@@ -98,6 +107,7 @@
 
     <section class="py-5"></section>
 
+    <!-- Animation (Comming Soon)-->
     <section>
         <section class="py-2">
             <div class="wrapper-coming-soon">
@@ -147,7 +157,7 @@
                         Site Map</h2>
                         <ul class="list-unstyled text-light light-300">
                             <li class="pb-2">
-                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="#main_nav">Home</a>
+                                <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light" href="./Index.html">Home</a>
                             </li>
                             <li class="pb-2">
                                 <i class='bx-fw bx bxs-chevron-right bx-xs'></i><a class="text-decoration-none text-light py-1" href="#journal">Journal</a>
