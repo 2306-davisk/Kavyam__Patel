@@ -214,3 +214,26 @@ body  {overscroll-behavior: contain}
 }
 
 html  {max-width: 100vw !important;}
+
+
+/* Preview */
+#file {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.closebtn {
+  font-size: 60px;
+  color: #00237a !important;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.preview-btn  {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.iframe-pr  {
+  overflow: scroll;
+  overscroll-behavior: none;
+}
