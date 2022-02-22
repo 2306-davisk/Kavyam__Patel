@@ -69,6 +69,7 @@
       font-size: 40px;
       -webkit-text-stroke-width: 1.2px;
     }
+    .trans  {width: 0px;}
   }
 
 
@@ -121,12 +122,15 @@ animation-delay: 360ms;
     font-size: 40px;
     -webkit-text-stroke-width: 1.2px;
   }
+  .iframe-pr  {
+    width: calc(100vw - 10px);
+  }
 }
 
 
 
 *{-webkit-box-sizing:border-box;box-sizing:border-box}
-body{padding:0;margin:0}#notfound{position:relative;height:100vh}#notfound 
+body{padding:0;margin:0;}#notfound{position:relative;height:100vh}#notfound 
 .notfound{position:absolute;left:50%;top:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 .notfound{max-width:410px;width:100%;text-align:center}
 .notfound .notfound-404{height:280px;position:relative;z-index:-1}
@@ -190,6 +194,7 @@ body  {overscroll-behavior: contain}
   border-radius: 1.5em;
 }
 
+
 /* Semi Round */
 .semi-btn {border-radius: 1.5ch !important;}
 .sub-btn:hover  {color: #ffffff !important;}
@@ -213,15 +218,8 @@ body  {overscroll-behavior: contain}
   min-width: 100%;
 }
 
-html  {max-width: 100vw !important;}
+html  {max-width: 100vw !important; overflow-x: hidden;}
 
-
-/* Preview */
-#preview_Social_Portfolio {
-  display: none;
-  width: 100%;
-  height: 100%;
-}
 .closebtn {
   font-size: 60px;
   color: #00237a !important;
@@ -233,7 +231,98 @@ html  {max-width: 100vw !important;}
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
-.iframe-pr  {
-  overflow: scroll;
-  overscroll-behavior: none;
-}
+
+/* Social */
+
+/* End Social */
+ /* Portfolio */
+  #preview_Social_Portfolio {
+    display: none;
+    width: 100%;
+    height: 100%;
+  }
+  /* English */
+  #preview_English_Portfolio  {
+    display: none ;
+    width: 100%;
+    height: 100%;
+  }
+
+/* English */
+
+  /* Activity */
+
+    /* First Flight */
+
+      /* Ch 1.1 - A Letter to God */
+      #preview_English_Activity_FF_Letter_to_God {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Ch 1.2 - Dust of Snow */
+      #preview_English_Activity_FF_Dust_of_Snow {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Ch 1.3 - Fire and Ice */
+      #preview_English_Activity_FF_Fire_and_Ice {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Ch 2.1 - Nelson Mandela */
+      #preview_English_Activity_FF_Nelson_Mandela {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+
+    /* Footprints Without Feet */
+
+      /* Ch 1 - Triumph of Surgery */
+      #preview_English_Activity_FF_Triumph_of_Surgery {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+    /* Vacation Assignment */
+    #preview_English_Activity_Vacation_Assignment {
+      display: none !important;
+      width: 100%;
+      height: 100%;
+    }
+
+/* Science */
+    /* Practicals */
+      /* 1 */
+      #preview_S_P_one  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* 2 */
+      #preview_S_P_two  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* 5 */
+      #preview_S_P_five  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* 6 */
+      #preview_S_P_six  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Ohm's Law */
+      #preview_S_P_OL  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
