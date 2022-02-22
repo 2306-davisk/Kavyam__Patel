@@ -289,7 +289,7 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
       }
     /* Vacation Assignment */
     #preview_English_Activity_Vacation_Assignment {
-      display: none !important;
+      display: none;
       width: 100%;
       height: 100%;
     }
