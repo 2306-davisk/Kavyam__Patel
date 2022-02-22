@@ -231,6 +231,9 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
+.m-span {margin-left: 95%;}
+@media screen and (max-width: 992px) {.m-span {margin-left: 93%;}}
+@media screen and (max-width: 572px) {.m-span {margin-left: 87%;}}
 
 /* Social */
 
@@ -247,6 +250,7 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
     width: 100%;
     height: 100%;
   }
+  @media (max-width: 552px) {#preview_English_Portfolio  {margin-left: 3vw;}}
 
 /* English */
 
