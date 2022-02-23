@@ -330,3 +330,56 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
         width: 100%;
         height: 100%;
       }
+
+/* Maths */
+    /* Term 1 */
+      /* Art Integretion Activity */
+      #preview_M_AIA  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Real Numbers */
+      #preview_M_RN  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+    /* Term 2 */
+      /* Clintometer - Trignometry */
+      #preview_M_CLN  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Arithmetic Progression - Graph */
+      #preview_M_AP  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Circle - Tangents of the Circle */
+      #preview_M_CRCL  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* 3D Model - Surface Area and Volume */
+      #preview_M_3D  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+    /* Single PDF */
+      /* Term 1 */
+      #preview_M_T1  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
+      /* Term 2 */
+      #preview_M_T2  {
+        display: none;
+        width: 100%;
+        height: 100%;
+      }
