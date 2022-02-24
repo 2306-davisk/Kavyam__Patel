@@ -72,9 +72,9 @@
     .trans  {width: 0px;}
   }
 
-
-
-
+  /* dark mode */
+  #on_button  {display: block ;}
+  #off_button {display: none ;}  
   
 .wrapper-coming-404 {
 width: 100vw;

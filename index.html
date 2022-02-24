@@ -17,7 +17,7 @@
     <!-- Load Tempalte CSS -->
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="assets/css/index-custom.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WC3X5DMNQK"></script>
     <script>
@@ -31,11 +31,19 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav">
+    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light shadow-nav">
         <div class="container d-flex justify-content-between align-items-center">
             <a class="navbar-brand h1" href="index.html">
-                <span class="text-dark h4">22</span> <span class="text-primary h4">Kavyam Patel</span> <span class="text-dark h4">10 A</span>
+                <span id="company-name-dark" class="text-dark h4">22</span> <span id="kavayam" class="text-primary h4">Kavyam Patel</span> <span id="company-name-dark class="text-dark h4">10 A</span>
             </a>
+            <section>
+                <button id="off_button" class="navbar-toggler border-0" type="button" onclick="off_dark_mode()">
+                    <i class='bx bxs-adjust'></i>
+                </button>
+                <button id="on_button" class="navbar-toggler border-0" type="button" onclick="on_dark_mode()">
+                    <i class='bx bxs-adjust'></i>
+                </button>
+            </section>
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,6 +75,7 @@
                     </ul>
                 </div>
             </div>
+            
         </div>
     </nav>
     <!-- Close Header -->
@@ -140,8 +149,8 @@
 
 
     <!-- Start Subjects -->
-    <section class="service-wrapper py-3">
-        <div class="container-fluid pb-3">
+    <section id="service-wrapper-dark" class="service-wrapper py-3 bg-white">
+        <div  class="container-fluid pb-3">
             <div class="row">
                 <h2 class="h2 text-center col-12 py-5 semi-bold-600"></h2>
                 <div class="service-header col-2 col-lg-3 light-300">
@@ -158,7 +167,7 @@
             <div class="col-md-12 custom-sub_head semi-btn">
                 <ul class="nav d-flex justify-content-center custom-sub_head semi-btn">
                     <div class="nav-item mx-lg-4 custom-sub_head-transform custom-sub_head semi-btn">
-                        <a class="h2 btn-outline-primary active shadow rounded-pill px-4 custom-sub_head subject-botton semi-btn l sub-btn" href="#main_nav">
+                        <a id="subject-head" class="h2 btn-outline-primary active shadow rounded-pill px-4 custom-sub_head subject-botton semi-btn l sub-btn" href="#main_nav">
                             Subjects</a>
                     </div>
                 </ul>
@@ -170,8 +179,9 @@
     </section>
     
     
-    <section class="container overflow-hidden py-5">
-        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 pb-3 projects">
+    <section id="subject-container" class="container-fluid overflow-hidden ">
+        <br><br>
+        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3  projects">
 
             <!-- Start Recent Work -->
             <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
@@ -250,8 +260,9 @@
                     </div>
                 </a>
             </div><!-- End Recent Work -->
-
+            
         </div>
+        <br><br>
     </section>
     <!-- End Subjects -->
 
@@ -274,7 +285,7 @@
                     </a>
                 </div>
                 <div class="col-lg-3 col-12 pt-4">
-                    <a href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 semi-btn" target="About_Blank" rel="noopener noreferrer">
+                    <a id="l-gd" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 semi-btn" target="About_Blank" rel="noopener noreferrer">
                         <img src="./assets/img/google-drive.png" class="image-gd"></img>
                         View My Work</a>
                 </div>
@@ -284,44 +295,44 @@
     <!-- End Link Head -->
 
     <!-- Start Link -->
-    <section class="py-5 mb-5 tr_1-5s">
+    <section id="start-link" class="py-5 tr_1-5s">
         <div class="container tr_1-5s">
             <div class="row d-flex justify-content-center text-center tr_1-5s">
                 <div class="pt-4 center tr_1-5s" style="padding-bottom: 50px;">
                    <div class="two-buttom-table">
-                        <a class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 two-bottom semi-btn tr_1-5s" style="font-size: xx-large;" href="https://drive.google.com/drive/folders/19zWpPpGl3F2VCh6P75jXtsVfs0jYZQ-q?usp=sharing" target="About_Blank" rel="noopener noreferrer">
+                        <a id="link-dark-button" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 two-bottom semi-btn tr_1-5s" style="font-size: xx-large;" href="https://drive.google.com/drive/folders/19zWpPpGl3F2VCh6P75jXtsVfs0jYZQ-q?usp=sharing" target="About_Blank" rel="noopener noreferrer">
                         Portfolio</a>
                     </div>
                     <br>
                     <div class="p_a-space" style="color: rgba(0,0,0,0);">--</div>
                     <div class="two-buttom-table ">    
-                        <a href="https://drive.google.com/drive/folders/1B13tgfWZ1zV_1xYRnVuGEWQWWknknA5b?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                        <a id="link-dark-button2" href="https://drive.google.com/drive/folders/1B13tgfWZ1zV_1xYRnVuGEWQWWknknA5b?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
                          English </a>
                     </div>
                     <div class="two-buttom-table">    
-                        <a href="https://drive.google.com/drive/folders/1dx5VolhdEU2EKHdae_pUaxWtHz4-E2rb?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                        <a id="link-dark-button3" href="https://drive.google.com/drive/folders/1dx5VolhdEU2EKHdae_pUaxWtHz4-E2rb?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
                          Maths </a>
                     </div>
                     <div class="two-buttom-table">    
-                        <a href="https://drive.google.com/drive/folders/1s6aMOqRebGBtrVxUuzqH6nxZfTKCVoPW?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                        <a id="link-dark-button4" href="https://drive.google.com/drive/folders/1s6aMOqRebGBtrVxUuzqH6nxZfTKCVoPW?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
                          Science </a>
                     </div>
                     
                     <div class="two-buttom-table">    
-                        <a href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                        <a id="link-dark-button5" href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
                          Sanskrit </a>
                     </div>
                     <div class="two-buttom-table">    
-                        <a href="https://drive.google.com/drive/folders/1H3iK9d37RoeU4C8RHKF2MuXsHZw6Esj1?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                        <a id="link-dark-button6" href="https://drive.google.com/drive/folders/1H3iK9d37RoeU4C8RHKF2MuXsHZw6Esj1?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
                          Social Science </a>
                     </div>
                     <div class="two-buttom-table">    
-                        <a href="https://drive.google.com/drive/folders/1wjWFKiBWd__xD-bd5WKgmjPkJFtZll_B?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s sub-ai-link">
+                        <a id="link-dark-button7" href="https://drive.google.com/drive/folders/1wjWFKiBWd__xD-bd5WKgmjPkJFtZll_B?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s sub-ai-link">
                         AI and Python Programing</a>
                     </div>
                 </div>
             </div>    
-            <div class="row gy-5 g-lg-5 mb-4">
+            <div id="start-link" class="row gy-5 g-lg-5 mb-4">
 
 
             </div>
@@ -421,7 +432,7 @@
             </div>
         </div>
     
-        <div class="w-100 bg-primary py-3">
+        <div id="dev" class="w-100 bg-primary py-3">
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
@@ -474,6 +485,8 @@
         <script src="assets/js/templatemo.min.js"></script>
         <!-- Custom -->
         <script src="assets/js/custom.js"></script>
+        <!-- Dark Mode -->
+        <SCript src="./assets/js/dark-mode/index.min.js"></script>
     </section>
 
 </body>

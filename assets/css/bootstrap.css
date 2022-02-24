@@ -1,3 +1,4 @@
+
 /*!
  * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -736,12 +737,18 @@ progress {
   .container, .container-sm {
     max-width: 540px;
   }
+  .container-fluid  {
+    padding-left: 10px; padding-right: 10px;
+  }
 }
 
 @media (min-width: 768px) {
   /* line 20, src/assets/scss/_containers.scss */
   .container, .container-sm, .container-md {
     max-width: 720px;
+  }
+  .container-fluid  {
+    padding-left: 15px; padding-right: 15px;
   }
 }
 
@@ -750,6 +757,9 @@ progress {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
   }
+  .container-fluid  {
+    padding-left: 20px; padding-right: 20px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -757,12 +767,18 @@ progress {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1140px;
   }
+  .container-fluid  {
+    padding-left: 30px; padding-right: 30px;
+  }
 }
 
 @media (min-width: 1400px) {
   /* line 20, src/assets/scss/_containers.scss */
   .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     max-width: 1320px;
+  }
+  .container-fluid  {
+    padding-left: 50px; padding-right: 50px;
   }
 }
 
@@ -9499,10 +9515,11 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-primary {
-  color: #4232c2
-   !important;
+  color: #4232c2 !important;
 }
-
+.text-primary-dark-mode  {
+  color: rebeccapurple !important;
+}
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-secondary {
   color: #6266ea !important;
