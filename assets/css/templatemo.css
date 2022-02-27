@@ -211,12 +211,28 @@ footer a.text-light:hover {
   border-bottom:  5px solid #4232c2;
   padding-top: .5em;
 }
+.typo-space-line-large-dark::after {
+  content: "";
+  width: 255px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #0dcaf0;
+  padding-top: .5em;
+}
 .typo-space-line-Act::after {
   content: "";
   width: 160px;
   display:block;
   position: absolute;
   border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
+.typo-space-line-Act-dark::after {
+  content: "";
+  width: 160px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #0dcaf0;
   padding-top: .5em;
 }
 .typo-space-aac::after {
