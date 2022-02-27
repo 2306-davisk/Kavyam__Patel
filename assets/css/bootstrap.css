@@ -9645,6 +9645,11 @@ fieldset:disabled .btn {
   background-color: #212529 !important;
 }
 
+/* Custom */
+.bg-black {
+  background-color: #000  !important;
+}
+
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .bg-body {
   background-color: #fff !important;
@@ -13596,8 +13601,14 @@ trans {color:rgba(0, 0, 0, 0)}
     color:rgba(0, 0, 0, 0)
   }
   .custom-drive-button  {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+  .custom-drive-button-dark  {
+    color: #000 !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
     font-weight: bold;
     margin-top: 1px;
   }
@@ -13605,6 +13616,8 @@ trans {color:rgba(0, 0, 0, 0)}
   .long-button::before {content: "--."; color: rgba(0, 0, 0, 0);}
   .custom-drive-button::after {content: "--."; color: rgba(0, 0, 0, 0);}
   .custom-drive-button::before {content: "."; color: rgba(0, 0, 0, 0);}
+  .custom-drive-button-dark::after {content: "--."; color: rgba(255, 255, 255, 0);}
+  .custom-drive-button-dark::before {content: "."; color: rgba(255, 255, 255, 0);}
 }
 @media (min-width: 550px) {
   .subject-botton::before {
@@ -13633,8 +13646,14 @@ trans {color:rgba(0, 0, 0, 0)}
 
 @media (max-width: 992px) {
   .custom-drive-button  {
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff !important;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    font-weight: bold;
+    margin-top: 1px;
+  }
+  .custom-drive-button-dark  {
+    color: #000 !important;
+    background-color: rgba(255, 255, 255, 1) !important;
     font-weight: bold;
     margin-top: 1px;
   }

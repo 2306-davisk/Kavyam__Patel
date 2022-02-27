@@ -1,5 +1,6 @@
 /* /* */ /* Dark Mode */ /* */
 
+/* Index.html */
 function on_dark_mode() {
     /* Off Button */
     document.getElementById("off_button").style.display = "block";
