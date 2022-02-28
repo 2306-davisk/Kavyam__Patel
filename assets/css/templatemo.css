@@ -299,3 +299,29 @@ footer a.text-light:hover {
 @media (max-width: 465px) {
   .sub-ai-link  {font-size: 24px !important;}
 }
+@media screen and (min-width: 992px) {.scroll-dark::-webkit-scrollbar-track {margin-block-end: 10vh;}}
+@media screen and (min-width: 772px) {
+  .scroll-dark::-webkit-scrollbar {
+    display: flex;
+    width: fit-content;
+    background: linear-gradient(transparent);
+    overflow: visible;
+  }
+
+  .scroll-dark::-webkit-scrollbar-track {
+    background-color: #212529;
+    border-radius: 100vw;
+    margin-block-start: 8vh;
+    margin-block-end: 15vh;
+  }
+  
+  .scroll-dark::-webkit-scrollbar-thumb {
+    transition-duration: 2s;
+    background-color: hsl(0, 0%, 50%);
+    border: .15em solid #212529;
+    border-radius: 100vw;
+  }
+  .scroll-dark::-webkit-scrollbar-thumb:hover {
+    background-color: hsl(0, 0%, 40%);
+  }
+}

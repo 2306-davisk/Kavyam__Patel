@@ -10,7 +10,7 @@
     <link rel="apple-touch-icon" href="assets/img/user-circle-regular-36.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/user-circle-regular-36.png">
     <!-- Load Require CSS -->
-    <link href="assets/css/index-bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -31,58 +31,58 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light shadow-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <span id="company-name-dark" class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span id="company-name-dark class="text-dark h4">10 A</span>
-            </a>
-            <section>
-                <button id="off_button" class="navbar-toggler border-0" type="button" onclick="off_dark_mode()">
-                    <i class='bx bxs-adjust'></i>
+    <section id="nav_section-">
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-light shadow-nav semi-btn">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand h1" href="./index.html">
+                    <span id="company-name-dark" class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span id="company-name-dark-af" class="text-dark h4">10 A</span>
+                </a>
+                <section>
+                    <button id="off_button" class="navbar-toggler border-0" type="button" onclick="off_dark_mode()">
+                        <i class="bx bxs-adjust"></i>
+                    </button>
+                    <button id="on_button" class="navbar-toggler border-0" type="button" onclick="on_dark_mode()">
+                        <i class="bx bxs-adjust"></i>
+                    </button>
+                </section>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button id="on_button" class="navbar-toggler border-0" type="button" onclick="on_dark_mode()">
-                    <i class='bx bxs-adjust'></i>
-                </button>
-            </section>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Subjects">
-                                <i class='bx bx-book-open'></i>
-                                Subjects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Links">
-                                <i class='bx bx-link image-bx'></i>
-                                Quick Links</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
-                                <i class='bx bxs-user-detail image-bx'></i>
-                                About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
-                            target="About_Blank" rel="noopener noreferrer" style="color: white;">
-                            <i class='bx bxl-google' ></i>
-                            Drive</a>
-                        </li>
-                    </ul>
+                
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                    <div class="flex-fill mx-xl-5 mb-2">
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                            <li class="nav-item">
+                                <a id="act-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Subjects">
+                                    <i class="bx bx-spreadsheet"></i>
+                                    Subjects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="notes-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Links">
+                                    <i class="bx bx-pencil"></i>
+                                    Links</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="abt-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
+                                    <i class="bx bxs-user-detail image-bx"></i>
+                                    About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="gd-btn-eng" class="nav-link btn-outline-info rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing" target="About_Blank" rel="noopener noreferrer">
+                                <i class="bx bxl-google"></i>
+                                Drive</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- Close Header -->
 
 
     <!-- Start Banner Hero -->
-    <div class="banner-wrapper bg-light">
+    <div class="banner- bg-black semi-btn">
         <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
 
             <!-- Start slider -->
@@ -97,7 +97,7 @@
 
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300" style="color: #ffffff;">
+                                <h1 class="banner-heading h1 display-3 mb-0 pb-5 mx-0 px-0 light-300 font-Berkshire_Swash" style="color: #ffffff;">
                                     Name <strong>Kavyam Patel</strong> 
                                     <br>Class<trans>-.</trans><strong>10 A</strong>
                               </h1>
@@ -109,7 +109,7 @@
 
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h1 class="banner-heading h1 display-3 mb-0 pb-3 mx-0 px-0 light-300" style="color: #ffffff;">
+                                <h1 class="banner-heading h1 display-3 mb-0 pb-3 mx-0 px-0 light-300 font-Berkshire_Swash text-light">
                                     Roll No<trans>-</trans><strong>22</strong>
                                     <br>
                                     GR No<trans>--</trans><strong>2306</strong>
@@ -122,7 +122,7 @@
 
                         <div class="py-5 row d-flex align-items-center">
                             <div class="banner-content col-lg-8 col-8 offset-2 m-lg-auto text-left py-5 pb-5">
-                                <h1 class="banner-heading h1 display-3 mb-0 pb-3 mx-0 px-0 light-300" style="color: #ffffff;">
+                                <h1 class="banner-heading h1 display-3 mb-0 pb-3 mx-0 px-0 light-300 text-light font-Berkshire_Swash">
                                     This is a <strong>Portfolio site</strong> <br>
                                     for Academic Year <strong>2021-22</strong>
                                 </h1>
@@ -147,203 +147,193 @@
     <!-- End Banner Hero -->
 
 
+    <section>
+        <!-- Start Subjects -->
+        <section id="sw" class="pt-0">
+            <section id="service-wrapper-dark" class="pt-0 bg-white semi-btn">
 
-    <!-- Start Subjects -->
-    <section id="service-wrapper-dark" class="service-wrapper py-3 bg-white">
-        <div  class="container-fluid pb-3">
-            <div class="row">
-                <h2 class="h2 text-center col-12 py-5 semi-bold-600"></h2>
-                <div class="service-header col-2 col-lg-3 light-300">
-                </div>
-                <div class="service-heading col-10 col-lg-9 text-start float-end light-300">
-                </div>
-            </div>
-            <p class="service-footer col-10 offset-2 col-lg-9 offset-lg-3 text-start pb-3 text-muted px-2">
-            </p>
-        </div>
-
-        <div class="service-tag py-5 bg-secondary" id="Subjects">
-            <br>
-            <div class="col-md-12 custom-sub_head semi-btn">
-                <ul class="nav d-flex justify-content-center custom-sub_head semi-btn">
-                    <div class="nav-item mx-lg-4 custom-sub_head-transform custom-sub_head semi-btn">
-                        <a id="subject-head" class="h2 btn-outline-primary active shadow rounded-pill px-4 custom-sub_head subject-botton semi-btn l sub-btn" href="#main_nav">
-                            Subjects</a>
-                    </div>
-                </ul>
-            </div>
-            <br>
-            <div class="h5 align-self-sm-center subject-description" st>Please select a subject to route to their designated Page</div>
-        </div>
-
-    </section>
-    
-    
-    <section id="subject-container" class="container-fluid overflow-hidden ">
-        <br><br>
-        <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 p-md-4 p-sm-5">
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="./English.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/English.jpeg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-lg" style="border-radius: 1ch !important;">English</span>
-                            <p class="card-text"></p>
+                    <div class="service-tag py-5 pt-5 bg-secondary semi-btn" id="Subjects">
+                        <br>
+                        <div class="col-md-12 custom-sub_head semi-btn pt-3">
+                            <ul class="nav d-flex justify-content-center custom-sub_head semi-btn">
+                                <div class="nav-item mx-lg-4 custom-sub_head-transform custom-sub_head semi-btn">
+                                    <a id="subject-head" class="h2 btn-outline-primary active shadow rounded-pill px-4 custom-sub_head subject-botton semi-btn l sub-btn font-Berkshire_Swash" href="#subject-container">
+                                        Subjects</a>
+                                </div>
+                            </ul>
                         </div>
+                        <br>
+                        <div class="h4 align-self-sm-center subject-description text-light">Select a Subject</div>
                     </div>
-                </a>
-            </div><!-- End Recent Work -->
 
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="./Maths.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/Maths.png" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm" style="border-radius: 1ch !important;">Mathematics</span>
-                            <p class="card-text"></p>
+            </section>
+        </section>
+        
+        <section id="subject-container" class="container-fluid overflow-hidden ">
+            <br><br>
+            <div class="row gx-5 gx-sm-3 gx-lg-5 gy-lg-5 gy-3 p-md-4 p-sm-5">
+
+                <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
+                    <a href="./English.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/English.jpeg" alt="Card image">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s1" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">English</span>
+                                <p class="card-text"></p>
+                            </div>
                         </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-                <a href="./Science.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/Science.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm" style="border-radius: 1ch !important;">Science</span>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="./Social.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/SST.png">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm" style="border-radius: 1ch !important;">Social Science</span>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-                        <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
-                <a href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/Sanskrit.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm" style="border-radius: 1ch !important;">Sanskrit</span>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-
-            <!-- Start Recent Work -->
-            <div class="col-xl-3 col-md-4 col-sm-6 project branding">
-                <a href="./AI.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
-                    <img class="card-img" src="assets/img/AI.jpg" alt="Card image">
-                    <div class="service-work-vertical card-img-overlay d-flex align-items-end">
-                        <div class="service-work-content text-left text-light">
-                            <span class="btn sub-card-head rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm" style="border-radius: 1ch !important;">AI and Python Programing</span>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a>
-            </div><!-- End Recent Work -->
-            
-        </div>
-        <br><br>
-    </section>
-    <!-- End Subjects -->
-
-
-
-
-
-
-    <!-- Start Link Head -->
-    <section class="bg-secondary" id="Links">
-        <div class="container py-5">
-            <div class="row d-flex justify-content-center text-center">
-                <div class="col-lg-2 col-12 text-light align-items-center">
-                    <i class='display-1 bx bxs-box bx-lg'></i>
-                </div>
-                <div class="col-lg-7 col-12 text-light pt-2">
-                    <a href="#main_nav" style="color: #ffffff; text-decoration: none;">
-                        <h3 class="h3 light-400">Drive Links</h3>
-                        <p class="h4 light-400">Direct Google Drive Links</p>
                     </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
+                    <a href="./Maths.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/Maths.png" alt="Card image">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s2" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">Mathematics</span>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project branding">
+                    <a href="./Science.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/Science.jpg" alt="Card image">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s3" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">Science</span>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
+                    <a href="./Social.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/SST.png">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s4" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">Social Science</span>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                            <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project ui graphic">
+                    <a href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/Sanskrit.jpg" alt="Card image">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s5" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">Sanskrit</span>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+
+                <!-- Start Recent Work -->
+                <div class="col-xl-3 col-md-4 col-sm-6 project branding">
+                    <a href="./AI.html" target="About_Blank" rel="noopener noreferrer" class="service-work card border-0 text-white shadow overflow-hidden mx-5 m-sm-0">
+                        <img class="card-img" src="assets/img/AI.jpg" alt="Card image">
+                        <div class="service-work-vertical card-img-overlay d-flex align-items-end">
+                            <div class="service-work-content text-left text-light">
+                                <span id="s6" class="btn rounded-pill mb-lg-3 px-lg-4 light-300 shadow-sm fw-bold btn-light text-dark btn-outline-light" style="border-radius: 1ch !important;">AI and Python Programing</span>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </a>
+                </div><!-- End Recent Work -->
+                
+            </div>
+            <br><br>
+        </section>
+        <!-- End Subjects -->
+
+
+
+
+
+
+        <!-- Start Link Head -->
+            <section class="bg-secondary semi-btn" id="Links">
+                <div class="container py-5">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-lg-2 col-12 text-light align-items-center">
+                            <i class='display-1 bx bxs-box bx-lg'></i>
+                        </div>
+                        <div class="col-lg-7 col-12 text-light pt-2">
+                            <a href="#main_nav" style="color: #ffffff; text-decoration: none;">
+                                <h3 class="h3 light-400">Drive Links</h3>
+                                <p class="h4 light-400">Direct Google Drive Links</p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-12 pt-4">
+                            <a id="l-gd" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 semi-btn" target="About_Blank" rel="noopener noreferrer">
+                                <img src="./assets/img/google-drive.png" class="image-gd"></img>
+                                View My Work</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 col-12 pt-4">
-                    <a id="l-gd" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 semi-btn" target="About_Blank" rel="noopener noreferrer">
-                        <img src="./assets/img/google-drive.png" class="image-gd"></img>
-                        View My Work</a>
+            </section>
+        <!-- End Link Head -->
+
+        <!-- Start Link -->
+        <section id="start-link" class="py-5 tr_1-5s">
+            <div class="container tr_1-5s">
+                <div class="row d-flex justify-content-center text-center tr_1-5s">
+                    <div class="pt-4 center tr_1-5s" style="padding-bottom: 50px;">
+                    <div class="two-buttom-table">
+                            <a id="link-dark-button" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 two-bottom semi-btn tr_1-5s" style="font-size: xx-large;" href="https://drive.google.com/drive/folders/19zWpPpGl3F2VCh6P75jXtsVfs0jYZQ-q?usp=sharing" target="About_Blank" rel="noopener noreferrer">
+                            Portfolio</a>
+                        </div>
+                        <br>
+                        <div class="p_a-space" style="color: rgba(0,0,0,0);">--</div>
+                        <div class="two-buttom-table ">    
+                            <a id="link-dark-button2" href="https://drive.google.com/drive/folders/1B13tgfWZ1zV_1xYRnVuGEWQWWknknA5b?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                            English </a>
+                        </div>
+                        <div class="two-buttom-table">    
+                            <a id="link-dark-button3" href="https://drive.google.com/drive/folders/1dx5VolhdEU2EKHdae_pUaxWtHz4-E2rb?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                            Maths </a>
+                        </div>
+                        <div class="two-buttom-table">    
+                            <a id="link-dark-button4" href="https://drive.google.com/drive/folders/1s6aMOqRebGBtrVxUuzqH6nxZfTKCVoPW?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                            Science </a>
+                        </div>
+                        
+                        <div class="two-buttom-table">    
+                            <a id="link-dark-button5" href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                            Sanskrit </a>
+                        </div>
+                        <div class="two-buttom-table">    
+                            <a id="link-dark-button6" href="https://drive.google.com/drive/folders/1H3iK9d37RoeU4C8RHKF2MuXsHZw6Esj1?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
+                            Social Science </a>
+                        </div>
+                        <div class="two-buttom-table">    
+                            <a id="link-dark-button7" href="https://drive.google.com/drive/folders/1wjWFKiBWd__xD-bd5WKgmjPkJFtZll_B?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s sub-ai-link">
+                            AI and Python Programing</a>
+                        </div>
+                    </div>
+                </div>    
+                <div id="start-link" class="row gy-5 g-lg-5 mb-4">
+
+
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- End Link -->
     </section>
-    <!-- End Link Head -->
-
-    <!-- Start Link -->
-    <section id="start-link" class="py-5 tr_1-5s">
-        <div class="container tr_1-5s">
-            <div class="row d-flex justify-content-center text-center tr_1-5s">
-                <div class="pt-4 center tr_1-5s" style="padding-bottom: 50px;">
-                   <div class="two-buttom-table">
-                        <a id="link-dark-button" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 two-bottom semi-btn tr_1-5s" style="font-size: xx-large;" href="https://drive.google.com/drive/folders/19zWpPpGl3F2VCh6P75jXtsVfs0jYZQ-q?usp=sharing" target="About_Blank" rel="noopener noreferrer">
-                        Portfolio</a>
-                    </div>
-                    <br>
-                    <div class="p_a-space" style="color: rgba(0,0,0,0);">--</div>
-                    <div class="two-buttom-table ">    
-                        <a id="link-dark-button2" href="https://drive.google.com/drive/folders/1B13tgfWZ1zV_1xYRnVuGEWQWWknknA5b?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
-                         English </a>
-                    </div>
-                    <div class="two-buttom-table">    
-                        <a id="link-dark-button3" href="https://drive.google.com/drive/folders/1dx5VolhdEU2EKHdae_pUaxWtHz4-E2rb?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
-                         Maths </a>
-                    </div>
-                    <div class="two-buttom-table">    
-                        <a id="link-dark-button4" href="https://drive.google.com/drive/folders/1s6aMOqRebGBtrVxUuzqH6nxZfTKCVoPW?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
-                         Science </a>
-                    </div>
-                    
-                    <div class="two-buttom-table">    
-                        <a id="link-dark-button5" href="https://drive.google.com/drive/folders/1VChaedXCI6mKDmn6_z65B1NFPZsUM60k?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
-                         Sanskrit </a>
-                    </div>
-                    <div class="two-buttom-table">    
-                        <a id="link-dark-button6" href="https://drive.google.com/drive/folders/1H3iK9d37RoeU4C8RHKF2MuXsHZw6Esj1?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s" style="font-size: xx-large;">
-                         Social Science </a>
-                    </div>
-                    <div class="two-buttom-table">    
-                        <a id="link-dark-button7" href="https://drive.google.com/drive/folders/1wjWFKiBWd__xD-bd5WKgmjPkJFtZll_B?usp=sharing" target="About_Blank" rel="noopener noreferrer" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h3 semi-btn tr_1-5s sub-ai-link">
-                        AI and Python Programing</a>
-                    </div>
-                </div>
-            </div>    
-            <div id="start-link" class="row gy-5 g-lg-5 mb-4">
-
-
-            </div>
-        </div>
-    </section>
-    <!-- End Link -->
-
 
 
     <!-- Start Footer -->
-    <footer class="bg-secondary pt-4" id="about">
+    <footer class="bg-secondary pt-4 semi-btn" id="about">
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
@@ -442,7 +432,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed by <a class="text-decoration-none text-light"><strong>Kavyam Patel</strong></a>
+                            Designed and partially Developed by <a class="text-decoration-none text-light"><strong>Kavyam Patel</strong></a>
                         </p>
                     </div>
                 </div>

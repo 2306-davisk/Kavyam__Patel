@@ -5,6 +5,7 @@
 function on_dark_english()  {
     /* body */
     document.body.style.backgroundColor = "#212529"
+    document.body.classList.add('scroll-dark')
     /* button */
     document.getElementById('on_button-eng').style.display = "none";
     document.getElementById('off_button-eng').style.display = "block";
@@ -16,7 +17,7 @@ function on_dark_english()  {
     document.getElementById('company-name-dark-eng').classList.replace('text-dark', 'text-light')           /* Company text */
     document.getElementById('company-name-dark-eng-af').classList.replace('text-dark', 'text-light')        /* Company text */
     document.getElementById('company-name-dark-eng-af').classList.replace('text-dark', 'text-light')        /* Company Main text */
-    document.getElementById('company-main-text-eng').classList.replace('text-primary', 'text-info')
+    document.getElementById('kavyam').classList.replace('text-primary', 'text-info')
     /* Nav - Button */
     document.getElementById('act-btn').classList.replace('btn-outline-primary', 'btn-outline-info')
     document.getElementById('notes-btn').classList.replace('btn-outline-primary', 'btn-outline-info')
@@ -77,12 +78,12 @@ function on_dark_english()  {
     document.getElementById('p5').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('p6').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('p7').classList.replace('closebtn', 'closebtn-dark')
-    document.getElementById('p8').classList.replace('closebtn', 'closebtn-dark')
 }
 
 function off_dark_english()  {
     /* body */
     document.body.style.backgroundColor = "white"
+    document.body.classList.remove('scroll-dark')
     /* button */
     document.getElementById('off_button-eng').style.display = "none";
     document.getElementById('on_button-eng').style.display = "block";
@@ -93,7 +94,7 @@ function off_dark_english()  {
     document.getElementById('main_nav').classList.replace('navbar-dark', 'navbar-light')                    /* Text */
     document.getElementById('company-name-dark-eng').classList.replace('text-light', 'text-dark')           /* Company text */
     document.getElementById('company-name-dark-eng-af').classList.replace('text-light', 'text-dark')        /* Company text */
-    document.getElementById('company-main-text-eng').classList.replace('text-info', 'text-primary')
+    document.getElementById('kavyam').classList.replace('text-info', 'text-primary')
     /* Nav - Button */
     document.getElementById('act-btn').classList.replace('btn-outline-info', 'btn-outline-primary')
     document.getElementById('notes-btn').classList.replace('btn-outline-info', 'btn-outline-primary')
@@ -154,5 +155,4 @@ function off_dark_english()  {
     document.getElementById('p5').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('p6').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('p7').classList.replace('closebtn-dark', 'closebtn')
-    document.getElementById('p8').classList.replace('closebtn-dark', 'closebtn')
 }

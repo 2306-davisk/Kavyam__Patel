@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
-@import url('../fonts/Slang_Personal_use.otf');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash');
+@import url('https://fonts.googleapis.com/css2?family=Itim');
+
+#kavyam {font-family: 'Berkshire Swash';}
+.font-Berkshire_Swash  {font-family: 'Berkshire Swash' !important;}
+.font-Impact  {font-family: 'Itim' !important}
 .wrapper-coming-soon {
   width: 100vw;
   text-align: center;
 }
+#sw {background: linear-gradient(#4d4946, #fff);}
+#nav_section- {background: linear-gradient(#fff, #595655);}
 .wrapper-coming-soon span {
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: rgb(0, 0, 0);
