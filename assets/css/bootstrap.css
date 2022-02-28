@@ -4209,7 +4209,8 @@ fieldset:disabled .btn {
 /* line 85, src/assets/scss/mixins/_buttons.scss */
 .btn-outline-info:hover {
   color: #000;
-  background-color: #0dcaf0;
+  background-color: 
+  ;
   border-color: #0dcaf0;
 }
 
