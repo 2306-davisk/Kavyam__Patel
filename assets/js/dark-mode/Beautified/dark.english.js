@@ -16,7 +16,6 @@ function on_dark_english()  {
     document.getElementById('main_nav').classList.replace('navbar-light', 'navbar-dark')                    /* Text */
     document.getElementById('company-name-dark-eng').classList.replace('text-dark', 'text-light')           /* Company text */
     document.getElementById('company-name-dark-eng-af').classList.replace('text-dark', 'text-light')        /* Company text */
-    document.getElementById('company-name-dark-eng-af').classList.replace('text-dark', 'text-light')        /* Company Main text */
     document.getElementById('kavyam').classList.replace('text-primary', 'text-info')
     /* Nav - Button */
     document.getElementById('act-btn').classList.replace('btn-outline-primary', 'btn-outline-info')

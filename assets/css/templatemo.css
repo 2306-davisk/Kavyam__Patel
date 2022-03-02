@@ -251,6 +251,14 @@ footer a.text-light:hover {
   border-bottom:  5px solid #4232c2;
   padding-top: .5em;
 }
+.typo-space-line-practicals-dark::after  {
+  content: "";
+  width: 280px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #0dcaf0;
+  padding-top: .5em;
+}
 .typo-space-journal::after {
   content: "";
   width: 135px;
@@ -312,7 +320,7 @@ footer a.text-light:hover {
     background-color: #212529;
     border-radius: 100vw;
     margin-block-start: 8vh;
-    margin-block-end: 15vh;
+    margin-block-end: 10.5vh;
   }
   
   .scroll-dark::-webkit-scrollbar-thumb {

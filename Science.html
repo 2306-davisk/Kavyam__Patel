@@ -33,49 +33,54 @@
 
 
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <span class="text-dark h4">22</span> <span class="text-primary h4">Kavyam Patel</span> <span class="text-dark h4">10 A</span>
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Activities">
-                                <i class='bx bx-spreadsheet'></i>
-                                Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Portfolio">
-                                <i class='bx bxs-file'></i>
-                                Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#practicals">
-                                <i class='bx bx-atom'></i>
-                                Practicals</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
-                                <i class='bx bxs-user-detail image-bx'></i>
-                                About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
-                            target="About_Blank" rel="noopener noreferrer" style="color: white;">
-                            <i class='bx bxl-google' ></i>
-                            Drive</a>
-                        </li>
-                    </ul>
+    <section id="nav_section">
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav semi-btn">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand h1" href="index.html">
+                    <span id="22" class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span id="10-A" class="text-dark h4">10 A</span>
+                </a>
+                <section>
+                    <button id="off_button-eng" class="navbar-toggler border-0" type="button" onclick="off_dark_science()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                    <button id="on_button-eng" class="navbar-toggler border-0"  type="button" onclick="on_dark_science()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                </section>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                    <div class="flex-fill mx-xl-5 mb-2">
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                            <li class="nav-item">
+                                <a id="act-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Activities">
+                                    <i class='bx bx-spreadsheet'></i>
+                                    Activities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="pot-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Portfolio">
+                                    <i class='bx bxs-file'></i>
+                                    Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="prt-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#practicals">
+                                    <i class='bx bx-atom'></i>
+                                    Practicals</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="gd-btn" class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
+                                target="About_Blank" rel="noopener noreferrer">
+                                <i class='bx bxl-google' ></i>
+                                Drive</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- Close Header -->
 
 
@@ -83,7 +88,7 @@
     <div id="work_single_banner" class="bg-light w-100 paralax-sub">
         <div class="container-fluid text-light d-flex justify-content-center align-items-center border-0 rounded-0 p-0 py-5">
             <div class="banner-content col-lg-8 m-lg-auto text-center py-5 px-3">
-                <h1 class="banner-heading h2 pb-5">Science</h1>
+                <h1 class="banner-heading h2 pb-5 font-Berkshire_Swash">Science</h1>
                 <h3 class="h4 pb-2 light-300"> The observation, identification, description, experimental investigation, and theoretical explanation of phenomena.</h3>
                 <p class="banner-footer light-300"></p>
             </div>
@@ -93,26 +98,27 @@
 
 
     <!--Start Activities-->
-    <section class="bg-light w-100" id="Activities">
-        <div class="container">
-            <div class="row d-flex align-items-center py-5">
-                <div class="col-lg-6 text-start">
-                    <h1 class="h2 py-5 text-primary worksingle-heading pb-3 typo-space-line-Act">Activities</h1>
-                </div>
-                <div class="col-lg-6">
-                    <img src="./assets/img/banner-img-02.svg">
+    <section id="Activities-section">
+        <section class="bg-light w-100 semi-btn" id="Activities">
+            <div class="container">
+                <div class="row d-flex align-items-center py-5">
+                    <div class="col-lg-6 text-start">
+                        <h1 id="act-head" class="h2 py-5 text-primary worksingle-heading pb-3 typo-space-line-Act">Activities</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/img/banner-img-02.svg">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </section>
-
     <!--Start Vacation Assignment-->
 
     <section class="container py-5">
-        <div class="row pt-5">
-            <div class="worksingle-content col-lg-8 m-auto text-left justify-content-center">
-                <h2 class="worksingle-heading h3 pb-3 light-400 typo-space">May Vacation Activity</h2>
-                <p class="worksingle-footer py-3 text-muted light-300"></p>
+        <div class="row pt-5 mb-5 ms-1 me-1">
+            <div id="may-head_sec" class="worksingle-content col-lg-8 m-auto text-left justify-content-center semi-btn bg-white pb-0 pt-3">
+                <h2 id="may-head" class="worksingle-heading h3 pt-3 pb-3 light-400 typo-space">May Vacation Activity</h2>
+                <p class="worksingle-footer py-1 text-muted light-300"></p>
             </div>
         </div>
 
@@ -126,7 +132,7 @@
                     <!--Start Controls-->
                     <div class="col-1 align-self-center">
                         <a href="#multi-item-example" role="button" data-bs-slide="prev">
-                            <i class="bx bxs-chevron-left bx-sm text-dark"></i>
+                            <i id="may-arrow-l" class="bx bxs-chevron-left bx-sm text-dark"></i>
                         </a>
                     </div>
                     <!--End Controls-->
@@ -203,7 +209,7 @@
                     <!--Start Controls-->
                     <div class="col-1 align-self-center text-end">
                         <a href="#multi-item-example" role="button" data-bs-slide="next">
-                            <i class="bx bxs-chevron-right bx-sm text-dark"></i>
+                            <i id="may-arrow-r" class="bx bxs-chevron-right bx-sm text-dark"></i>
                         </a>
                     </div>
                     <!--End Controls-->
@@ -218,9 +224,9 @@
             <div class="col-md-8 m-auto text-left justify-content-center">
                 <br>
                 <div class="light-400 center h4" style="text-align: center;">
-                    <a class="l" href="https://drive.google.com/file/d/13-DuTAb0BBS3IxHacmuAalonXjXlkjTl/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class='bx bxl-google' ></i> Drive</h3></a>
-                    <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Activity.pptx" download="May Vacation Assignment - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PPT<trans>.</trans></h3></a></button>
-                    <button class="preview-btn"><a class="l" href="./assets/activities/Science/Vacation Assignment.pdf" download="May Vacation Assignment - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
+                    <a class="l" href="https://drive.google.com/file/d/13-DuTAb0BBS3IxHacmuAalonXjXlkjTl/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_11" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Activity.pptx" download="May Vacation Assignment - 22 Kavyam Patel 10 A"><h3 id="a_12" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PPT<trans>.</trans></h3></a></button>
+                    <button class="preview-btn"><a class="l" href="./assets/activities/Science/Vacation Assignment.pdf" download="May Vacation Assignment - 22 Kavyam Patel 10 A"><h3 id="a_13" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
                 </div>
             </div>
         </div>
@@ -229,10 +235,10 @@
 
     <section id="Portfolio">
         <section class="container py-5">
-            <div class="row pt-5">
-                <div class="worksingle-content col-lg-8 m-auto text-left justify-content-center">
-                    <h2 class="worksingle-heading h3 pb-3 light-400 typo-space">Portfolio</h2>
-                    <p class="worksingle-footer py-3 text-muted light-300"></p>
+            <div class="row pt-5 me-1 ms-1">
+                <div id="pot-head_sec" class="worksingle-content col-lg-8 m-auto text-left justify-content-center semi-btn bg-white pb-0 pt-3">
+                    <h2 id="pot-head" class="worksingle-heading h3 pb-3 light-400 typo-space">Portfolio</h2>
+                    <p class="worksingle-footer py-1 text-muted light-300"></p>
                 </div>
                 <section class="container py-5">
                     <div class="row">
@@ -245,9 +251,9 @@
                                     <div class="col-md-8 m-auto text-left justify-content-center">
                                         <br>
                                         <div class="light-400 center h4" style="text-align: center;">
-                                            <a class="l" href="https://drive.google.com/drive/folders/10t7BEoaTbTEiT8gNb5jy4tVV0oASk0Vx?usp=sharing" target="About_Blank"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class='bx bxl-google' ></i> Drive</h3></a>
-                                            <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Portfolio - 22 Kavyam Patel 10 A.pptx" download="Science Portfolio - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PPT<trans>.</trans></h3></a></button>
-                                            <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Portfolio - 22 Kavyam Patel 10 A.pdf" download="Science Portfolio - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
+                                            <a class="l" href="https://drive.google.com/drive/folders/10t7BEoaTbTEiT8gNb5jy4tVV0oASk0Vx?usp=sharing" target="About_Blank"><h3 id="a_14" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class='bx bxl-google' ></i> Drive</h3></a>
+                                            <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Portfolio - 22 Kavyam Patel 10 A.pptx" download="Science Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_15" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PPT<trans>.</trans></h3></a></button>
+                                            <button class="preview-btn"><a class="l" href="./assets/activities/Science/Science Portfolio - 22 Kavyam Patel 10 A.pdf" download="Science Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_16" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
                                         </div>
                                     </div>
                                 </div>
@@ -258,11 +264,13 @@
         </section>
     </section>
 
-    <section class="bg-light w-100" id="notes">
+    <!-- Start Practicals -->
+    
+    <section class="bg-light w-100 semi-btn" id="notes">
         <div class="container">
             <div class="row d-flex align-items-center py-5">
                 <div class="col-lg-6 text-start">
-                    <h1 class="h2 py-5 text-primary typo-space-line-practicals">Practicals and
+                    <h1 id="prt-head" class="h2 py-5 text-primary typo-space-line-practicals">Practicals and
                         <br>Notes</h1>
                     <p class="light-300">
                     </p>
@@ -282,15 +290,15 @@
                 <h2 class="worksingle-heading h4 pb-3 light-400">Experiment - 1</h2>
                 <h2 class="worksingle-heading h4 pb-3 light-300">Find PH of Sample</h2>
                 <section>
-                    <a class="l" href="javascript:void(0)" onclick="on_S_P_one()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
-                    <a class="l" href="https://drive.google.com/drive/folders/1uWpYdNTE_tuuNZEK1en6drmaLtb43ANz?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <a class="l" href="javascript:void(0)" onclick="on_S_P_one()"><h3 id="a_1" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
+                    <a class="l" href="https://drive.google.com/drive/folders/1uWpYdNTE_tuuNZEK1en6drmaLtb43ANz?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_2" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
                     <br>    
                     <section id="preview_S_P_one">
                         <div>
                             <span class="text-end" style="margin-left: 95% !important;">
-                                <button class="closebtn" onclick="off_S_P_one()">&times;</button>
+                                <button id="p1" class="closebtn" onclick="off_S_P_one()">&times;</button>
                             </span>
-                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important; background: transparent !important;">
                                 <iframe src="https://drive.google.com/file/d/11W72YjhICyRqq2rV7OykilvS9hU4cHhs/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
                             <br>
@@ -301,15 +309,15 @@
                 <h2 class="worksingle-heading h4 pb-3 light-400">Experiment - 2</h2>
                 <h2 class="worksingle-heading h4 pb-3 light-300">Carbon Dioxide release during Respiration</h2>
                 <section>
-                    <a class="l" href="javascript:void(0)" onclick="on_S_P_two()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
-                    <a class="l" href="https://drive.google.com/drive/folders/1WRCfqNJOd-Rn8nce3FUzPbvabS5wY3Yu?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <a class="l" href="javascript:void(0)" onclick="on_S_P_two()"><h3 id="a_3" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
+                    <a class="l" href="https://drive.google.com/drive/folders/1WRCfqNJOd-Rn8nce3FUzPbvabS5wY3Yu?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_4" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
                     <br>
                     <section id="preview_S_P_two">
                         <div>
                             <span class="text-end" style="margin-left: 95% !important;">
-                                <button class="closebtn" onclick="off_S_P_two()">&times;</button>
+                                <button id="p2" class="closebtn" onclick="off_S_P_two()">&times;</button>
                             </span>
-                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important; background: transparent !important;">
                                 <iframe src="https://drive.google.com/file/d/11X4TCMlqok5PKOUZpNd66HQEaSF4Ri2C/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
                             <br>
@@ -320,15 +328,15 @@
                 <h2 class="worksingle-heading h4 pb-3 light-400">Experiment - 5</h2>
                 <h2 class="worksingle-heading h4 pb-3 light-300">To determine the Focal length of a Concave Mirror</h2>
                 <section>
-                    <a class="l" href="javascript:void(0)" onclick="on_S_P_five()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
-                    <a class="l" href="https://drive.google.com/drive/folders/1UAjQhM8sNZcQEjBi9xYYdlUvoP7x1g3G?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <a class="l" href="javascript:void(0)" onclick="on_S_P_five()"><h3 id="a_5" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
+                    <a class="l" href="https://drive.google.com/drive/folders/1UAjQhM8sNZcQEjBi9xYYdlUvoP7x1g3G?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_6" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
                     <br>
                     <section id="preview_S_P_five">
                         <div>
                             <span class="text-end" style="margin-left: 95% !important;">
-                                <button class="closebtn" onclick="off_S_P_five()">&times;</button>
+                                <button id="p3" class="closebtn" onclick="off_S_P_five()">&times;</button>
                             </span>
-                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important; background: transparent !important;">
                                 <iframe src="https://drive.google.com/file/d/11P5AAR7Ef7F6wEwyiAiRXcBM0So5kPXs/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
                             <br>
@@ -339,15 +347,15 @@
                 <h2 class="worksingle-heading h4 pb-3 light-400">Experiment - 6</h2>
                 <h2 class="worksingle-heading h4 pb-3 light-300">Trace path of Light through Glass Slab</h2>
                 <section>
-                    <a class="l" href="javascript:void(0)" onclick="on_S_P_six()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
-                    <a class="l" href="https://drive.google.com/drive/folders/11O4anJ-ciOULZy7azuRQVXcKrr2_2dDh?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <a class="l" href="javascript:void(0)" onclick="on_S_P_six()"><h3 id="a_7" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
+                    <a class="l" href="https://drive.google.com/drive/folders/11O4anJ-ciOULZy7azuRQVXcKrr2_2dDh?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_8" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
                     <br>
                     <section id="preview_S_P_six">
                         <div>
                             <span class="text-end" style="margin-left: 95% !important;">
-                                <button class="closebtn" onclick="off_S_P_six()">&times;</button>
+                                <button id="p4" class="closebtn" onclick="off_S_P_six()">&times;</button>
                             </span>
-                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important; background: transparent !important;">
                                 <iframe src="https://drive.google.com/file/d/11PLNzCXe3OWgYKDaGhiiXLHDvNJ-_ziw/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
                             <br>
@@ -358,15 +366,15 @@
                 <h2 class="worksingle-heading h4 pb-3 light-400">Term - 2</h2>
                 <h2 class="worksingle-heading h4 pb-3 light-300">Ohm's Law</h2>
                 <section>
-                    <a class="l" href="javascript:void(0)" onclick="on_S_P_OL()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
-                    <a class="l" href="https://drive.google.com/drive/folders/1r7d2ZBGmg9kTqKROjGMBupnLMwOWH5i7?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
+                    <a class="l" href="javascript:void(0)" onclick="on_S_P_OL()"><h3 id="a_9" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class="bx bx-fullscreen pdf"></i><trans>-</trans> Preview<trans>.</trans></h3></a>
+                    <a class="l" href="https://drive.google.com/drive/folders/1r7d2ZBGmg9kTqKROjGMBupnLMwOWH5i7?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_10" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn"><i class='bx bxl-google' ></i> Drive</h3></a>
                     <br>
                     <section id="preview_S_P_OL">
                         <div>
                             <span class="text-end" style="margin-left: 95% !important;">
-                                <button class="closebtn" onclick="off_S_P_OL()">&times;</button>
+                                <button id="p5" class="closebtn" onclick="off_S_P_OL()">&times;</button>
                             </span>
-                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important; background: transparent !important;">
                                 <iframe src="https://drive.google.com/file/d/19V1stZX0a0IVM19Djgz-tmt4FvCWasbX/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
                             <br>
@@ -383,7 +391,7 @@
 
 
     <!-- Start Footer -->
-    <footer class="bg-secondary pt-4" id="about">
+    <footer class="bg-secondary pt-4 semi-btn" id="about">
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
@@ -474,12 +482,12 @@
             </div>
         </div>
 
-        <div class="w-100 bg-primary py-3">
+        <div id="dev" class="w-100 bg-primary py-3">
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-
+                            Created in <a class="text-decoration-none text-light"><strong>January 2022</strong></a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -516,5 +524,7 @@
     <script src="assets/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="./assets/js/custom.min.js"></script>
+    <!-- Dark Mode -->
+    <script src="./assets/js/dark-mode/science.min.js"></script>
 </body>
 </html>
