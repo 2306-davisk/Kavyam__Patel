@@ -43,6 +43,14 @@ p, a {font-weight: 400;}
   border-bottom:  5px solid #2c2e6e;
   padding-top: .5em;
 }
+.typo-space-line-dark::after {
+  content: "";
+  width: 150px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #9fa2ff;
+  padding-top: .5em;
+}
 .typo-space-line-center::after {
   left: 50%;
   margin-left: -75px;
@@ -241,6 +249,14 @@ footer a.text-light:hover {
   display:block;
   position: absolute;
   border-bottom:  5px solid #4232c2;
+  padding-top: .5em;
+}
+.typo-space-aac-dark::after {
+  content: "";
+  width: 230px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #0dcaf0;
   padding-top: .5em;
 }
 .typo-space-line-practicals::after  {

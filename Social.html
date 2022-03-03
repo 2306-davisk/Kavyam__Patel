@@ -31,49 +31,54 @@
 
 <body>
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="index.html">
-                <span class="text-dark h4">22</span> <span class="text-primary h4">Kavyam Patel</span> <span class="text-dark h4">10 A</span>
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Activities">
-                                <i class='bx bx-spreadsheet'></i>
-                                Activities</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#notes">
-                                <i class='bx bx-pencil'></i>
-                                Notes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Portfolio">
-                                <i class='bx bxs-file image-bx'></i>
-                                Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
-                                <i class='bx bxs-user-detail image-bx'></i>
-                                About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
-                            target="About_Blank" rel="noopener noreferrer" style="color: white;">
-                            <i class='bx bxl-google'></i>
-                            Drive</a>
-                        </li>
-                    </ul>
+    <section id="nav_section">
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav semi-btn">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand h1" href="index.html">
+                    <span id="22" class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span id="10-A" class="text-dark h4">10 A</span>
+                </a>
+                <section>
+                    <button id="off_button-eng" class="navbar-toggler border-0" type="button" onclick="off_dark_social()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                    <button id="on_button-eng" class="navbar-toggler border-0"  type="button" onclick="on_dark_social()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                </section>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                    <div class="flex-fill mx-xl-5 mb-2">
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                            <li class="nav-item">
+                                <a id="act-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Activities">
+                                    <i class='bx bx-spreadsheet'></i>
+                                    Activities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nts-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#notes">
+                                    <i class='bx bx-pencil'></i>
+                                    Notes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="pot-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Portfolio">
+                                    <i class='bx bxs-file image-bx'></i>
+                                    Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="gd-btn" class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
+                                target="About_Blank" rel="noopener noreferrer">
+                                <i class='bx bxl-google'></i>
+                                Drive</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- Close Header -->
 
 
@@ -81,7 +86,7 @@
     <div id="work_single_banner" class="bg-light w-100 paralax-sub">
         <div class="container-fluid text-light d-flex justify-content-center align-items-center border-0 rounded-0 p-0 py-5">
             <div class="banner-content col-lg-8 m-lg-auto text-center py-5 px-3">
-                <h1 class="banner-heading h2 pb-5">Social Science</h1>
+                <h1 class="banner-heading h2 pb-5 font-Berkshire_Swash">Social Science</h1>
                 <h3 class="h4 pb-2 light-300">Social science is the branch of science devoted to the study of societies and the relationships among individuals within those societies.</h3>
                 <p class="banner-footer light-300"></p>
             </div>
@@ -93,12 +98,12 @@
     <!-- Start Main Content -->
     <section>
         <!-- Start Activities -->
-        <section>
-            <section class="bg-light w-100" id="Activities">
+        <section id="Activities-section">
+            <section class="bg-light w-100 semi-btn" id="Activities">
                 <div class="container">
                     <div class="row d-flex align-items-center py-5">
                         <div class="col-lg-6 text-start">
-                            <h1 class="h2 py-5 text-primary worksingle-heading pb-3 typo-space-line-Act">Activities</h1>
+                            <h1 id="act-head" class="h2 py-5 text-primary worksingle-heading pb-3 typo-space-line-Act font-Berkshire_Swash">Activities</h1>
                         </div>
                         <div class="col-lg-6">
                             <img src="./assets/img/banner-img-02.svg">
@@ -106,35 +111,35 @@
                     </div>
                 </div>
             </section>
-            
+        </section>    
             <section class="container py-5">
                 <div class="row pt-5">
-                    <div class="worksingle-content col-lg-8 m-auto text-left justify-content-center">
-                        <h2 class="worksingle-heading h3 pb-3 light-400 typo-space">May Vacation Assignment</h2>
+                    <div id="may-head_sec" class="bg-white col-lg-8 m-auto pt-3 mb-5 text-left justify-content-center semi-btn">
+                        <h2 id="may-head" class="worksingle-heading h3 pb-3 light-400 typo-space font-Berkshire_Swash">May Vacation Assignment</h2>
                         <p class="worksingle-footer py-3 text-muted light-300"></p>
                     </div>
                 </div><!-- May Activity Head -->
 
                 <div class="row justify-content-center pb-4">
                     <div class="col-lg-8">
-                        <div id="templatemo-slide-link-target" class="card mb-3" style="border: none !important;">
+                        <div id="templatemo-slide-link-target" class="card mb-3" style="border: transparent !important; background: transparent !important;">
                             <iframe src="https://drive.google.com/file/d/186G3JmHS9KFJkH-VyFHQV_xCS_xulm62/preview" width="fit-content" height="700px" scrolling="yes" class="semi-btn"></iframe>
                         </div>
                         <br><br>
                         <div class="light-400 center h4" style="text-align: center;">
                                 
-                            <a class="l" href="https://drive.google.com/file/d/186G3JmHS9KFJkH-VyFHQV_xCS_xulm62/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn light-400 semi-btn" style="font-weight: 400;">
+                            <a class="l" href="https://drive.google.com/file/d/186G3JmHS9KFJkH-VyFHQV_xCS_xulm62/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_1" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn light-400 semi-btn" style="font-weight: 400;">
                                 <i class='bx bxl-google'></i>
                                 Drive</h3></a>
                             <trans>-----</trans>
-                            <a class="l" href="./assets/activities/Social/22 Kavyam Patel 10 A - Vacation Assignment.pdf" download="22 Kavyam Patel 10 A - Vacation Assignment"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn semi-btn" style="font-weight: 400;">
+                            <a class="l" href="./assets/activities/Social/22 Kavyam Patel 10 A - Vacation Assignment.pdf" download="22 Kavyam Patel 10 A - Vacation Assignment"><h3 id="a_2" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn semi-btn" style="font-weight: 400;">
                                 <i class='bx bxs-download'></i>
                                 Download</h3></a>
                         </div>
                         <div>
                         </div>
-                        <p class="pt-5 text-muted light-300">
-                            <span style="font-weight: bold; color: black;"><strong>Introduction</strong></span>
+                        <p id="may-intro" class="pt-5 text-muted light-300">
+                            <span id="may-intro-head" class="h4 text-primary-dark-mode font-Berkshire_Swash"><strong>Introduction</strong></span>
                             <br><br>
                             A “consumer” according to the Constitution of India means any person who buys goods; hires or avails of any service, but excludes a person who obtains goods or avails services for resale or commercial purpose.
                             <br>
@@ -149,25 +154,25 @@
                 <br>
 
                 <div class="row pt-5">
-                    <div class="worksingle-content col-lg-8 m-auto text-left justify-content-center">
-                        <h2 class="worksingle-heading h3 pb-3 light-400 typo-space-aac">AAC Activity - July</h2>
+                    <div id="AAC-head_sec" class="bg-white worksingle-content col-lg-8 m-auto pt-3 mb-5 text-left justify-content-center semi-btn">
+                        <h2 id="AAC-head" class="text-dark worksingle-heading h3 pb-3 light-400 typo-space-aac font-Berkshire_Swash">AAC Activity - July</h2>
                         <p class="worksingle-footer py-3 text-muted light-300"></p>
                     </div>
                 </div>
 
                 <div class="row justify-content-center pb-4">
                     <div class="col-lg-8">
-                        <div id="templatemo-slide-link-target" class="card mb-3" style="border: none !important;">
+                        <div id="templatemo-slide-link-target" class="card mb-3" style="border: none !important; background: transparent !important;">
                             <iframe src="https://drive.google.com/file/d/1oPbj-w3pgJLetXFtTz3-3HoNAnru0zYc/preview" width="fit-content" height="500px" class="semi-btn"></iframe>
                         </div>
                         <br><br>
                         <div class="light-400 center h4" style="text-align: center;">
-                            <a class="l" href="https://drive.google.com/file/d/1oPbj-w3pgJLetXFtTz3-3HoNAnru0zYc/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn light-400 semi-btn" style="font-weight: 400;">
+                            <a class="l" href="https://drive.google.com/file/d/1oPbj-w3pgJLetXFtTz3-3HoNAnru0zYc/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_3" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn light-400 semi-btn" style="font-weight: 400;">
                                 <i class='bx bxl-google'></i>
                                 Drive</h3></a>
                             <trans>-----</trans>
                             <button type="button" class="preview-btn">
-                                <a class="l" href="./assets/activities/Social/22 KAVYAM PATEL 10 A - AAC Activity.pdf" download="22 KAVYAM PATEL 10 A - AAC Activity"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn semi-btn" style="font-weight: 400;">
+                                <a class="l" href="./assets/activities/Social/22 KAVYAM PATEL 10 A - AAC Activity.pdf" download="22 KAVYAM PATEL 10 A - AAC Activity"><h3 id="a_4" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn semi-btn" style="font-weight: 400;">
                                     <i class='bx bxs-download'></i>
                                     Download</h3></a>
                             </button>
@@ -176,15 +181,15 @@
                 </div><!-- End Slider -->        
 
             </section>
-        </section>
+        
         <!-- End Activities -->
         
         <!-- Start Notes -->
-        <section class="bg-light w-100" id="notes">
+        <section class="bg-light w-100 semi-btn" id="notes">
             <div class="container">
                 <div class="row d-flex align-items-center py-5">
                     <div class="col-lg-6 text-start">
-                        <h1 class="h2 py-5 text-primary typo-space-line-large">Written Notes</h1>
+                        <h1 id="notes-head" class="h2 py-5 text-primary typo-space-line-large font-Berkshire_Swash">Written Notes</h1>
                         <p class="light-300">
                         </p>
                     </div>
@@ -195,48 +200,48 @@
             </div>
         </section>
         
-        <section class="container py-5">
-            <div class="row pt-5">
+        <section class="container py-5 mb-5">
+            <div class="row pt-5 mb-2">
                 <div class="row pt-5">
                     <div class="worksingle-content col-lg-8 m-auto text-left justify-content-center">
-    <!--History-->  <h2 class="worksingle-heading h3 pb-3 light-400">History</h2>
+    <!--History-->  <h2 id="H" class="worksingle-heading h3 pb-3 light-400 font-Berkshire_Swash semi-btn">History</h2>
                         <section>
-                            <a class="l" href="https://drive.google.com/file/d/10OUwiSyZ_tGtsPkFVobmpnQCL5Kmp5VI/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Rise of Nationalism in Europe</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/10nHWrOLEI6WqCKtjV1B-WjRNsnpaUyQr/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Nationalism in India</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10OUwiSyZ_tGtsPkFVobmpnQCL5Kmp5VI/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_5" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Rise of Nationalism in Europe</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10nHWrOLEI6WqCKtjV1B-WjRNsnpaUyQr/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_6" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Nationalism in India</h3></a>
                         </section>
                         
-    <!--Geography-->    <h2 class="worksingle-heading h3 pb-3 light-400">Geography</h2>
+    <!--Geography-->    <h2 id="G" class="worksingle-heading h3 pb-3 light-400 font-Berkshire_Swash mt-4 semi-btn">Geography</h2>
                         <section>
-                            <a class="l" href="https://drive.google.com/file/d/10Jve-Mydjp-EsIotEg6F3__DAhuG7uwy/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Resources and Development</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/10PQnmb3rxAOHjIf0GVUzDTadnIdP0XpI/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 3 - Water Resources</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/10NhFh0mW2C9eTNJYvXfvvPwzPGT5Leiu/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 4 - Agriculture</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/12GEIl3hFUy6bEvKZpIz8B_F5-DH4erkk/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 5 - Minerals and Energy Resources</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/12Zik-lSR_TeTTk4er-AyBL3xxADTNjzu/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 6 - Manufacturing Industries</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/12bezf-n-a8NGjzbCWIHRtR96inJD1KW9/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 7 - Lifelines of National Economy</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10Jve-Mydjp-EsIotEg6F3__DAhuG7uwy/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_7" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Resources and Development</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10PQnmb3rxAOHjIf0GVUzDTadnIdP0XpI/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_8" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 3 - Water Resources</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10NhFh0mW2C9eTNJYvXfvvPwzPGT5Leiu/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_9" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 4 - Agriculture</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/12GEIl3hFUy6bEvKZpIz8B_F5-DH4erkk/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_10" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 5 - Minerals and Energy Resources</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/12Zik-lSR_TeTTk4er-AyBL3xxADTNjzu/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_11" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 6 - Manufacturing Industries</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/12bezf-n-a8NGjzbCWIHRtR96inJD1KW9/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_12" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 7 - Lifelines of National Economy</h3></a>
                         </section>
-    <!--Economics-->    <h2 class="worksingle-heading h3 pb-3 light-400">Economics</h2>
+    <!--Economics-->    <h2 id="E" class="worksingle-heading h3 pb-3 light-400 font-Berkshire_Swash mt-4 semi-btn">Economics</h2>
                         <section>
-                            <a class="l" href="https://drive.google.com/file/d/10GLqUZZSqYkCruRgVzcZJsb4GyyXt8wx/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Development</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/10Ad_bEqOl-tIii5CfDVyHdF3DSdUtmrl/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Sectors of Indian Economy</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/12HetUzdfv4CPzKA6IuBMJFgZxThkc2Mq/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 3 - Money and Credit</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/12Y9X0vacEBdy0EoUoZ3w_R6WgUH2lESg/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 4 - Globalization and the India Economy.pdf</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10GLqUZZSqYkCruRgVzcZJsb4GyyXt8wx/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_13" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Development</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10Ad_bEqOl-tIii5CfDVyHdF3DSdUtmrl/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_14" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Sectors of Indian Economy</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/12HetUzdfv4CPzKA6IuBMJFgZxThkc2Mq/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_15" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 3 - Money and Credit</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/12Y9X0vacEBdy0EoUoZ3w_R6WgUH2lESg/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_16" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 4 - Globalization and the India Economy.pdf</h3></a>
                         </section>
-    <!--DP-->           <h2 class="worksingle-heading h3 pb-3 light-400">Democratic Politics</h2>
+    <!--DP-->           <h2 id="DP" class="worksingle-heading h3 pb-3 light-400 font-Berkshire_Swash mt-4 semi-btn">Democratic Politics</h2>
                         <section>
-                            <a class="l" href="https://drive.google.com/file/d/10T323e3za5LUBrXSMkM7FplpeJ3YGifk/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Power Sharing</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/10oe2PpPZRDGqLgk0U2sNWOCk_vZ3H0Bp/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Federalism</h3></a>
-                            <a class="l" href="https://drive.google.com/file/d/13Es9PRaU1v-ZVk2RN7kpEg8p94HJETT7/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 6 - Political Parties</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10T323e3za5LUBrXSMkM7FplpeJ3YGifk/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_17" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 1 - Power Sharing</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/10oe2PpPZRDGqLgk0U2sNWOCk_vZ3H0Bp/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_18" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 2 - Federalism</h3></a>
+                            <a class="l" href="https://drive.google.com/file/d/13Es9PRaU1v-ZVk2RN7kpEg8p94HJETT7/view?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_19" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn">Ch 6 - Political Parties</h3></a>
                         </section>
 
                         <br id="Portfolio"><br>
-    <!--Portfolio-->    <h2 class="worksingle-heading h2 pb-3 light-400 typo-space-line">Portfolio</h2>
+    <!--Portfolio-->    <h2 id="pot-head" class="worksingle-heading h2 pb-3 light-400 typo-space-line font-Berkshire_Swash semi-btn">Portfolio</h2>
                         <br><br>
                         <section>
                                 
-                                <a class="l" href="javascript:void(0)" onclick="on_Social_Portfolio()"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bx-fullscreen'><trans>-</trans></i>Preview<trans>.</trans></h3></a>
-                            <a class="l" href="https://drive.google.com/drive/folders/10xHgXtaEBKMVVycULp75X_D8x-Awry6u?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxl-google'><trans>-</trans></i>Drive<trans></trans></h3></a>
-                            <a class="l" href="./assets/activities/Social/Social Portfolio.pptx" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PPT<trans>.</trans></h3></a>
-                            <a class="l" href="./assets/activities/Social/Social Portfolio_22_12_2021.pdf" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PDF<trans>.</trans></h3></a>
+                                <a class="l" href="javascript:void(0)" onclick="on_Social_Portfolio()"><h3 id="a_20" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bx-fullscreen'><trans>-</trans></i>Preview<trans>.</trans></h3></a>
+                            <a class="l" href="https://drive.google.com/drive/folders/10xHgXtaEBKMVVycULp75X_D8x-Awry6u?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_21" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxl-google'><trans>-</trans></i>Drive<trans></trans></h3></a>
+                            <a class="l" href="./assets/activities/Social/Social Portfolio.pptx" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_22" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PPT<trans>.</trans></h3></a>
+                            <a class="l" href="./assets/activities/Social/Social Portfolio_22_12_2021.pdf" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_23" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PDF<trans>.</trans></h3></a>
                         </section>
                         <section id="preview_Social_Portfolio" style="align-self: center !important;">
                             <div>
@@ -257,7 +262,7 @@
     
 
     <!-- Start Footer -->
-    <footer class="bg-secondary pt-4" id="about">
+    <footer class="bg-secondary pt-4 semi-btn" id="about">
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
@@ -348,17 +353,17 @@
             </div>
         </div>
 
-        <div class="w-100 bg-primary py-3">
+        <div id="dev" class="w-100 bg-primary py-3">
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-
+                            Created in <a class="text-decoration-none text-light"><strong>January 2022</strong></a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-end text-center text-light light-300">
-                            Designed and partially Developed by <a class="text-decoration-none text-light"><strong>Kavyam Patel</strong></a>
+                            Designed and Partially Developed by <a class="text-decoration-none text-light"><strong>Kavyam Patel</strong></a>
                         </p>
                     </div>
                 </div>
@@ -389,7 +394,8 @@
     <script src="assets/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="assets/js/custom.min.js"></script>
-
+    <!-- Dark Mode -->
+    <script src="./assets/js/dark-mode/Beautified/dark.social.js"></script>
 </body>
 
 </html>
