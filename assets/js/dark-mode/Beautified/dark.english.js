@@ -67,6 +67,7 @@ function on_dark_english()  {
     document.getElementById('n_11').classList.replace('btn-primary','btn-info'); document.getElementById('n_11').classList.add('btn-outline-primary') /* 11 */
     document.getElementById('n_12').classList.replace('btn-primary','btn-info'); document.getElementById('n_12').classList.add('btn-outline-primary') /* 12 */
     document.getElementById("n_13").classList.replace("btn-primary","btn-info"); document.getElementById("n_13").classList.add("btn-outline-primary") /* 13 */
+    document.getElementById("n_14").classList.replace("btn-primary","btn-info"); document.getElementById("n_14").classList.add("btn-outline-primary") /* 13 */
     /* Footer */
     document.getElementById('about').classList.replace('bg-secondary', 'bg-black')
     document.getElementById('dev').classList.replace('bg-primary','bg-dark')
@@ -145,6 +146,7 @@ function off_dark_english()  {
     document.getElementById('n_11').classList.replace('btn-info', 'btn-primary'); document.getElementById('n_11').classList.remove('btn-outline-primary') /* 11 */
     document.getElementById('n_12').classList.replace('btn-info', 'btn-primary'); document.getElementById('n_12').classList.remove('btn-outline-primary') /* 12 */
     document.getElementById('n_13').classList.replace('btn-info', 'btn-primary'); document.getElementById('n_13').classList.remove('btn-outline-primary') /* 13 */
+    document.getElementById('n_14').classList.replace('btn-info', 'btn-primary'); document.getElementById('n_14').classList.remove('btn-outline-primary') /* 13 */
     /* Footer */
     document.getElementById('about').classList.replace('bg-black', 'bg-secondary')
     document.getElementById('dev').classList.replace('bg-dark','bg-primary')
