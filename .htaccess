@@ -1,1 +1,2 @@
 ErrorDocument 404 /not-found-page.html
+Redirect 301 "/Social?Portfolio" "/Social.html#Portfolio"
