@@ -389,6 +389,11 @@
             });
             // End Slide
         });
+        $(function() {
+        var url = window.location.href;
+        var page = url.match(/Social=([^\?]+)/)[1];
+        if (Social=="portfolio") { runon_Social_Portfolio(); }
+});
     </script>
     <!-- Templatemo -->
     <script src="assets/js/templatemo.js"></script>
