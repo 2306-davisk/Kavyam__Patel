@@ -9,7 +9,7 @@
     <link rel="apple-touch-icon" href="assets/img/user-circle-regular-36.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/user-circle-regular-36.png">
     <!-- Load Require CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
     <!-- Font CSS -->
     <link href="assets/css/boxicon.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
@@ -17,72 +17,67 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Load Custom CSS -->
     <link rel="stylesheet" href="./assets/css/custom.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKEQ45L5YZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-WKEQ45L5YZ');
-    </script>
-    <style>
-    .no-hover-change:hover  {
-        color: rgba(255,255,255,0);
-        background-color: rgba(255,255,255,0);
-    }
-
-    </style>
 </head>
 <body>
     
     <!-- Header -->
-    <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a class="navbar-brand h1" href="./index.html">
-                <span class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span class="text-dark h4">10 A</span>
-            </a>
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button no-hover-change" href="#">
-                                <trans><i class='bx bx-spreadsheet'></i>
-                                Activities</trans></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#journal">
-                                <i class='bx bx-pencil'></i>
-                                Journal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#about">
-                                <i class='bx bxs-user-detail image-bx'></i>
-                                About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
-                            target="About_Blank" rel="noopener noreferrer" style="color: white;">
-                            <i class='bx bxl-google' ></i>
-                            Drive</a>
-                        </li>
-                    </ul>
+    <section id="nav_section">
+        <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav semi-btn">
+            <div class="container d-flex justify-content-between align-items-center">
+                <a class="navbar-brand h1" href="index.html">
+                    <span id="22" class="text-dark h4">22</span> <span id="kavyam" class="text-primary h4">Kavyam Patel</span> <span id="10-A" class="text-dark h4">10 A</span>
+                </a>
+                <section>
+                    <button id="off_button-eng" class="navbar-toggler border-0" type="button" onclick="off_dark_AI()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                    <button id="on_button-eng" class="navbar-toggler border-0"  type="button" onclick="on_dark_AI()">
+                        <i class='bx bxs-adjust'></i>
+                    </button>
+                </section>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
+                    <div class="flex-fill mx-xl-5 mb-2">
+                        <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
+                            <li class="nav-item">
+                                <a id="act-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Activities">
+                                    <i class='bx bx-spreadsheet'></i>
+                                    Journal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="nts-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#notes">
+                                    <i class='bx bx-pencil'></i>
+                                    Python Programs</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="pot-btn" class="nav-link btn-outline-primary rounded-pill px-3 long-button semi-btn" href="#Portfolio">
+                                    <i class='bx bxs-file image-bx'></i>
+                                    About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a id="gd-btn" class="nav-link btn-outline-primary rounded-pill px-3 custom-drive-button semi-btn" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing"
+                                target="About_Blank" rel="noopener noreferrer">
+                                <i class='bx bxl-google'></i>
+                                Drive</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </section>
     <!-- Close Header -->
+
 
 
     <!-- Start Banner Hero -->
     <div id="work_single_banner" class="bg-light w-100 paralax-sub">
         <div class="container-fluid text-light d-flex justify-content-center align-items-center border-0 rounded-0 p-0 py-5">
             <div class="banner-content col-lg-8 m-lg-auto text-center py-5 px-3">
-                <h1 class="banner-heading h2 pb-5">Artificial Inteligence and Python Programing</h1>
+                <h1 class="banner-heading h2 pb-5 font-Berkshire_Swash">Artificial Inteligence and Python Programing</h1>
                 <h3 class="h4 pb-2 light-300">Artificial Intelligence is the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings.</h3>
                 <p class="banner-footer light-300"></p>
                 <div id="work_single_banner" class="paralax-sub"></div>
@@ -90,49 +85,98 @@
         </div>
     </div>
     <!-- End Banner Hero -->
-
-    <section class="bg-light w-100" id="journal">
-        <div class="container">
-            <div class="row d-flex align-items-center py-5">
-                <div class="col-lg-6 text-start">
-                    <h1 class="h2 py-5 text-primary worksingle-heading pb-3 typo-space-journal">Journal</h1>
-                </div>
-                <div class="col-lg-6">
-                    <img src="./assets/img/work.svg">
+    <section id="Activities-section">
+        <section aria-label="Journal-Header" class="bg-light w-100 semi-btn" id="Activities">
+            <div class="container">
+                <div class="row d-flex align-items-center py-5">
+                    <div class="col-lg-6 text-start">
+                        <h1 id="act-head" class="h1 py-5 text-primary worksingle-heading pb-3 typo-space-journal font-Berkshire_Swash">Journal</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/img/work.svg">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </section>  
 
-    <section class="py-5"></section>
-
-    <!-- Animation (Comming Soon)-->
-    <section>
-        <section class="py-2">
-            <div class="wrapper-coming-soon">
-                <span>C</span>
-                <span>O</span>
-                <span>M</span>
-                <span>I</span>
-                <span>N</span>
-                <span>G</span>
-                <span> </span>
-                <span>S</span>
-                <span>O</span>
-                <span>O</span>
-                <span>N</span>
+    <section id="Journal-T1">
+        <section class="container py-5">
+            <div class="row pt-5 me-1 ms-1">
+                <div id="T-1_sec" class="worksingle-content col-lg-8 m-auto text-left justify-content-center semi-btn bg-white pb-0 pt-3">
+                    <h2 id="T-1_head" class="worksingle-heading h2 pb-3 light-400 typo-space-journal font-Berkshire_Swash">Term 1</h2>
+                    <p class="worksingle-footer py-1 text-muted light-300"></p>
+                </div>
+                <section class="container py-5">
+                    <div class="row">
+                        
+                        <div class="align-items-center">
+                            <iframe src="https://drive.google.com/file/d/11hrgEiCb72wZ5BhqMOVXe58cOG-duuAC/preview" class="semi-btn" width="100%" height="600px" allow="autoplay" style="margin: auto;"></iframe>
+                        </div>
+                            <section class="container py-5">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-left justify-content-center">
+                                        <br>
+                                        <div class="light-400 center h4" style="text-align: center;">
+                                            <a class="l" href="https://drive.google.com/drive/folders/156NBcQ1163Tcvo_cb1KQBKMSwdCM3ssC?usp=sharing" target="About_Blank"><h3 id="a1" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class="bx bxl-google"></i> Drive</h3></a>
+                                            <button class="preview-btn"><a class="l" href="./assets/activities/AI/Journal (1).ipynb" download="Journal Term 1 - 22 Kavyam Patel 10 A.pdf.ipynb"><h3 id="a2" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download"></i><trans>-</trans>.ipynb<trans>.</trans></h3></a></button>
+                                            <button class="preview-btn"><a class="l" href="./assets/activities/AI/Journal Term 1 - 22 Kavyam Patel 10 A.pdf" download="Journal Term 1 - 22 Kavyam Patel 10 A.pdf"><h3 id="a3" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                </section>                  
             </div>
         </section>
     </section>
-    
-    <section class="py-5">
-        <section class="py-5">
-            <section class="py-5"></section>
+            
+    <section id="Journal-T2">
+        <section class="container py-5">
+            <div class="row pt-5 me-1 ms-1">
+                <div id="T-2_sec" class="worksingle-content col-lg-8 m-auto text-left justify-content-center semi-btn bg-white pb-0 pt-3">
+                    <h2 id="T-2_head" class="worksingle-heading h2 pb-3 light-400 typo-space-journal font-Berkshire_Swash">Term 2</h2>
+                    <p class="worksingle-footer py-1 text-muted light-300"></p>
+                </div>
+                <section class="container py-5">
+                    <div class="row">
+                        
+                        <div class="align-items-center">
+                            <iframe src="https://drive.google.com/file/d/15cBEHytCzAe7o3SPVm41LCM_qQDV8c5J/preview" class="semi-btn" width="100%" height="600px" allow="autoplay" style="margin: auto;"></iframe>
+                        </div>
+                            <section class="container py-5">
+                                <div class="row">
+                                    <div class="col-md-8 m-auto text-left justify-content-center">
+                                        <br>
+                                        <div class="light-400 center h4" style="text-align: center;">
+                                            <a class="l" href="https://drive.google.com/drive/folders/156NBcQ1163Tcvo_cb1KQBKMSwdCM3ssC?usp=sharing" target="About_Blank"><h3 id="a4" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 light-400 semi-btn" style="font-weight: 400;"><i class="bx bxl-google"></i> Drive</h3></a>
+                                            <button class="preview-btn"><a class="l" href="./assets/activities/AI/Journal Term 2 - 22 Kavyam Patel 10 A.pdf" download="Journal Term 2 - 22 Kavyam Patel 10 A.pdf"><h3 id="a5" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h4 semi-btn" style="font-weight: 400;"><i class="bx bxs-download pdf"></i><trans>-</trans>PDF<trans>.</trans></h3></a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                </section>                  
+            </div>
         </section>
     </section>
-
-    <!-- Start Footer -->
-    <footer class="bg-secondary pt-4" id="about">
+<!--
+    <section id="Python_sec">
+        <section aria-label="Journal-Header" class="bg-light w-100 semi-btn" id="Python">
+            <div class="container">
+                <div class="row d-flex align-items-center py-5">
+                    <div class="col-lg-6 text-start">
+                        <h1 id="act-head" class="h1 py-5 text-primary worksingle-heading pb-3 typo-space-journal font-Berkshire_Swash">Python Programs</h1>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="./assets/img/work.svg">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section> -->
+   <!-- Start Footer -->
+    <footer class="bg-secondary pt-4 semi-btn" id="about">
         <div class="container">
             <div class="row py-4">
                 <div class="col-lg-3 col-md-4 my-sm-0 mt-4">
@@ -217,12 +261,12 @@
             </div>
         </div>
 
-        <div class="w-100 bg-primary py-3">
+        <div class="w-100 bg-primary py-3" id="dev">
             <div class="container">
                 <div class="row pt-2">
                     <div class="col-lg-6 col-sm-12">
                         <p class="text-lg-start text-center text-light light-300">
-
+                            Created in <a class="text-decoration-none text-light"><strong>January 2022</strong></a>
                         </p>
                     </div>
                     <div class="col-lg-6 col-sm-12">
@@ -258,5 +302,14 @@
     <script src="assets/js/templatemo.js"></script>
     <!-- Custom -->
     <script src="assets/js/custom.min.js"></script>
+    <!-- Dark Mode -->
+    <script src="./assets/js/dark-mode/Beautified/dark.ai.js"></script>
+       <!-- Animation (Comming Soon)
+    <section>
+        <section class="py-2">
+            <div class="wrapper-coming-soon"><span>C</span><span>O</span><span>M</span><span>I</span><span>N</span><span>G</span><span> </span><span>S</span><span>O</span><span>O</span><span>N</span></div>
+        </section>
+    </section>-->
+  
 </body>
 </html>

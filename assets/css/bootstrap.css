@@ -9665,7 +9665,10 @@ fieldset:disabled .btn {
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
 }
-
+/* custom */
+.bg-sub_head {
+  background-color: #d1d1d1 !important;
+}
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-wrap {
   white-space: normal !important;

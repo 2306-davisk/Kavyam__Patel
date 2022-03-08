@@ -283,6 +283,14 @@ footer a.text-light:hover {
   border-bottom:  5px solid #4232c2;
   padding-top: .5em;
 }
+.typo-space-journal-dark::after {
+  content: "";
+  width: 135px;
+  display:block;
+  position: absolute;
+  border-bottom:  5px solid #0dcaf0;
+  padding-top: .5em;
+}
 .typo-space-soon::after {
   content: "";
   width: 200px;
