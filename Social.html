@@ -29,7 +29,7 @@
     </script>
 </head>
 
-<body>
+<body class="transition-1s">
     <!-- Header -->
     <section id="nav_section">
         <nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow-nav semi-btn">
@@ -238,19 +238,23 @@
                         <br><br>
                         <section>
                                 
-                                <a class="l" href="javascript:void(0)" onclick="on_Social_Portfolio()"><h3 id="a_20" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bx-fullscreen'><trans>-</trans></i>Preview<trans>.</trans></h3></a>
+                            <a class="l" href="javascript:void(0)" onclick="on_Social_Portfolio()"><h3 id="a_20" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bx-fullscreen'><trans>-</trans></i>Preview<trans>.</trans></h3></a>
                             <a class="l" href="https://drive.google.com/drive/folders/10xHgXtaEBKMVVycULp75X_D8x-Awry6u?usp=sharing" target="About_Blank" rel="noopener noreferrer"><h3 id="a_21" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxl-google'><trans>-</trans></i>Drive<trans></trans></h3></a>
                             <a class="l" href="./assets/activities/Social/Social Portfolio.pptx" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_22" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PPT<trans>.</trans></h3></a>
                             <a class="l" href="./assets/activities/Social/Social Portfolio_22_12_2021.pdf" download="Social Portfolio - 22 Kavyam Patel 10 A"><h3 id="a_23" class="btn btn-primary rounded-pill btn-block shadow px-4 py-2 h semi-btn"><i class='bx bxs-download'><trans>-</trans></i>PDF<trans>.</trans></h3></a>
                         </section>
-                        <section id="preview_Social_Portfolio" style="align-self: center !important;">
+                        <section id="preview_Social_Portfolio" class="transition-1s overflow-hidden" style="align-self: center !important;">
                             <div>
-                                <span class="text-end" style="margin-left: 95% !important;"><button class="closebtn" onclick="off_Social_Portfolio()">&times;</button></span>
+                                <span class="text-end" style="margin-left: 95% !important;"><button id="p1" class="closebtn" onclick="off_Social_Portfolio()">&times;</button></span>
                                 <br>
                             </div>
-                            <div id="templatemo-slide-link-target" class="card mb-3" style="margin: auto !important; align-self: center !important; border: none !important;">
+                            <div id="templatemo-slide-link-target" class="card mb-3 bg-transparent" style="margin: auto !important; align-self: center !important; border: none !important;">
                                 <iframe src="https://drive.google.com/file/d/14vM4OrdL_--0HB3rTY7efmpbR7UGzaBm/preview" width="100%" height="500px" class="semi-btn" style="margin: auto !important; align-self: center !important;"></iframe>
                             </div>
+                            <script>
+                                function on_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = '600px';}
+                                function off_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = "0px";}
+                            </script>
                         </section>
                     </div>
                 </div>
@@ -397,10 +401,10 @@
     </script>
     <!-- Templatemo -->
     <script src="assets/js/templatemo.js"></script>
-    <!-- Custom -->
-    <script src="assets/js/custom.min.js"></script>
-    <!-- Dark Mode -->
-    <script src="./assets/js/dark-mode/social.min.js"></script>
+    <!-- Custom 
+    <script src="assets/js/custom.js"></script>
+     Dark Mode -->
+    <script src="./assets/js/dark-mode/Beautified/dark.social.js"></script>
 </body>
 
 </html>

@@ -12,8 +12,8 @@
                         */
 
 /* Social */
-        function on_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.display = "block";}
-        function off_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.display = "none";}
+        function on_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = '100%';}
+        function off_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = "0px";}
 
     /* End Social */
 

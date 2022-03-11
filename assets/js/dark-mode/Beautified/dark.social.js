@@ -72,6 +72,8 @@ function on_dark_social()   {
     /* Footer */
     document.getElementById('about').classList.replace('bg-secondary','bg-black')
     document.getElementById('dev').classList.replace('bg-primary','bg-dark')
+    /* close - btn */
+    document.getElementById('p1').classList.replace('closebtn', 'closebtn-dark')
 }
 function off_dark_social()   {
     /* button */
