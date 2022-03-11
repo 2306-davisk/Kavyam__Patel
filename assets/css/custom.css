@@ -258,6 +258,7 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
   -webkit-transition-duration: 1s !important;
 }
 
+
 /* Social */
 
 /* End Social */
@@ -272,7 +273,15 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
     width: 100%;
     height: 100%;
   }
-  @media (max-width: 552px) {#preview_English_Portfolio  {margin-left: 3vw;}}
+  .closebtn-span {
+    margin-left: 95%;
+  }
+  @media (max-width: 552px) {
+  #preview_English_Portfolio  {margin-left: 3vw;}
+  .closebtn-span {
+    margin-left: 87%;
+  }
+}
 
 /* English */
 
