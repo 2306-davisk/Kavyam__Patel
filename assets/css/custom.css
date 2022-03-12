@@ -269,9 +269,8 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
   }
   /* English */
   #preview_English_Portfolio  {
-    display: none ;
     width: 100%;
-    height: 100%;
+    height: 0px;
   }
   .closebtn-span {
     margin-left: 95%;
@@ -291,128 +290,109 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
 
       /* Ch 1.1 - A Letter to God */
       #preview_English_Activity_FF_Letter_to_God {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Ch 1.2 - Dust of Snow */
       #preview_English_Activity_FF_Dust_of_Snow {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Ch 1.3 - Fire and Ice */
       #preview_English_Activity_FF_Fire_and_Ice {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Ch 2.1 - Nelson Mandela */
       #preview_English_Activity_FF_Nelson_Mandela {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
 
     /* Footprints Without Feet */
 
       /* Ch 1 - Triumph of Surgery */
       #preview_English_Activity_FF_Triumph_of_Surgery {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
     /* Vacation Assignment */
     #preview_English_Activity_Vacation_Assignment {
-      display: none;
       width: 100%;
-      height: 100%;
+      height: 0px;
     }
 
 /* Science */
     /* Practicals */
       /* 1 */
       #preview_S_P_one  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* 2 */
       #preview_S_P_two  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* 5 */
       #preview_S_P_five  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* 6 */
       #preview_S_P_six  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Ohm's Law */
       #preview_S_P_OL  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
 
 /* Maths */
     /* Term 1 */
       /* Art Integretion Activity */
       #preview_M_AIA  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Real Numbers */
       #preview_M_RN  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
     /* Term 2 */
       /* Clintometer - Trignometry */
       #preview_M_CLN  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Arithmetic Progression - Graph */
       #preview_M_AP  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Circle - Tangents of the Circle */
       #preview_M_CRCL  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* 3D Model - Surface Area and Volume */
       #preview_M_3D  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
     /* Single PDF */
       /* Term 1 */
       #preview_M_T1  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
       /* Term 2 */
       #preview_M_T2  {
-        display: none;
         width: 100%;
-        height: 100%;
+        height: 0px;
       }
 
 
