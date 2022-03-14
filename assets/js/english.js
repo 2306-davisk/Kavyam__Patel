@@ -82,7 +82,7 @@ function on_dark_english()  {
     document.getElementById('p5').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('p6').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('p7').classList.replace('closebtn', 'closebtn-dark')
-    /* Close Notes Preview */
+    /* Close Notes Preview - FF*/
     document.getElementById('np1').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np1_2').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np1_3').classList.replace('closebtn', 'closebtn-dark')
@@ -93,6 +93,11 @@ function on_dark_english()  {
     document.getElementById('np7').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np10').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np11').classList.replace('closebtn', 'closebtn-dark')
+    /* Close Notes Preview - FWF*/
+    document.getElementById('n1').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('n2').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('n5').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('n8').classList.replace('closebtn', 'closebtn-dark')
 }
 
 function off_dark_english()  {
@@ -175,7 +180,7 @@ function off_dark_english()  {
     document.getElementById('p5').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('p6').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('p7').classList.replace('closebtn-dark', 'closebtn')
-    /* Close Notes Preview */
+    /* Close Notes Preview - FF */
     document.getElementById('np1').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('np1_2').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('np1_3').classList.replace('closebtn-dark', 'closebtn')
@@ -186,6 +191,11 @@ function off_dark_english()  {
     document.getElementById('np7').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('np10').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('np11').classList.replace('closebtn-dark', 'closebtn')
+    /* Close Notes Preview - FWF */   
+    document.getElementById('n1').classList.replace('closebtn-dark', 'closebtn')
+    document.getElementById('n2').classList.replace('closebtn-dark', 'closebtn')
+    document.getElementById('n5').classList.replace('closebtn-dark', 'closebtn')
+    document.getElementById('n8').classList.replace('closebtn-dark', 'closebtn')
 }
 /* Preview */
 /* Activities */
@@ -357,3 +367,32 @@ function off_dark_english()  {
         )}
         function off_E_N_FF_The_Proposal() {document.getElementById("preview_E_N_FF_The_Proposal").style.height = "0px";}        
         
+        /* Footprints Without Feet */
+        /* Ch 1 - Triumph of Surgery */
+        function on_E_N_FwF_Triumph_of_Surgery()    {document.getElementById('preview_E_N_FwF_Triumph_of_Surgery').style.height = '600px'; return(
+            off_E_N_FwF_Thief_Story(),
+            off_E_N_FwF_FWF(),
+            off_E_N_FwF_Hack_Driver()
+        )}
+        function off_E_N_FwF_Triumph_of_Surgery()   {document.getElementById('preview_E_N_FwF_Triumph_of_Surgery').style.height = '0px'}
+        /* Ch 2 - A Thief's Story */
+        function on_E_N_FwF_Thief_Story()   {document.getElementById('preview_E_N_FwF_Thief_Story').style.height = '600px'; return(
+            off_E_N_FwF_Triumph_of_Surgery(),
+            off_E_N_FwF_FWF(),
+            off_E_N_FwF_Hack_Driver()
+        )}
+        function off_E_N_FwF_Thief_Story()  {document.getElementById('preview_E_N_FwF_Thief_Story').style.height = '0px';}
+        /* Ch 5 - Footprints Without Feet */
+        function on_E_N_FwF_FWF()   {document.getElementById('preview_E_N_FwF_FWF').style.height = '600px'; return(
+            off_E_N_FwF_Triumph_of_Surgery(),
+            off_E_N_FwF_Thief_Story(),
+            off_E_N_FwF_Hack_Driver()
+        )}
+        function off_E_N_FwF_FWF()  {document.getElementById('preview_E_N_FwF_FWF').style.height = '0px';}
+        /* Ch 8 - The Hack Driver */
+        function on_E_N_FwF_Hack_Driver()   {document.getElementById('preview_E_N_FwF_Hack_Driver').style.height = '600px'; return(
+            off_E_N_FwF_Triumph_of_Surgery(),
+            off_E_N_FwF_Thief_Story(),
+            off_E_N_FwF_FWF()
+        )}
+        function off_E_N_FwF_Hack_Driver()  {document.getElementById('preview_E_N_FwF_Hack_Driver').style.height = '0px';}
