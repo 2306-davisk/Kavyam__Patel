@@ -93,11 +93,15 @@ function on_dark_english()  {
     document.getElementById('np7').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np10').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('np11').classList.replace('closebtn', 'closebtn-dark')
-    /* Close Notes Preview - FWF*/
+    /* Close Notes Preview - FWF */
     document.getElementById('n1').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('n2').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('n5').classList.replace('closebtn', 'closebtn-dark')
     document.getElementById('n8').classList.replace('closebtn', 'closebtn-dark')
+    /* Close Notes Preview - Grammer */
+    document.getElementById('g1').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('g2').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('g3').classList.replace('closebtn', 'closebtn-dark')
 }
 
 function off_dark_english()  {
@@ -196,6 +200,10 @@ function off_dark_english()  {
     document.getElementById('n2').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('n5').classList.replace('closebtn-dark', 'closebtn')
     document.getElementById('n8').classList.replace('closebtn-dark', 'closebtn')
+    /* Close Notes Preview - Grammer */   
+    document.getElementById('g1').classList.replace('closebtn-dark', 'closebtn')
+    document.getElementById('g2').classList.replace('closebtn-dark', 'closebtn')
+    document.getElementById('g3').classList.replace('closebtn-dark', 'closebtn')
 }
 /* Preview */
 /* Activities */
@@ -396,3 +404,23 @@ function off_dark_english()  {
             off_E_N_FwF_FWF()
         )}
         function off_E_N_FwF_Hack_Driver()  {document.getElementById('preview_E_N_FwF_Hack_Driver').style.height = '0px';}
+
+        /* Grammer and Writing Skills */
+        /* Letter - Placing Order */
+        function on_E_N_G_Placing_Order() {document.getElementById('preview_E_N_G_Placing_Order').style.height = '600px'; return(
+            off_E_N_G_Enquiry(),
+            off_E_N_G_Editor()
+        )}
+        function off_E_N_G_Placing_Order(){document.getElementById('preview_E_N_G_Placing_Order').style.height = '0px'}
+        /* Letter - Enquiry */
+        function on_E_N_G_Enquiry() {document.getElementById('preview_E_N_G_Enquiry').style.height = '600px'; return(
+            off_E_N_G_Placing_Order(),
+            off_E_N_G_Editor()
+        )}
+        function off_E_N_G_Enquiry(){document.getElementById('preview_E_N_G_Enquiry').style.height = '0px'}
+        /* Letter - Editor */
+        function on_E_N_G_Editor()  {document.getElementById('preview_E_N_G_Editor').style.height = '600px'; return(
+            off_E_N_G_Placing_Order(),
+            off_E_N_G_Enquiry()
+        )}
+        function off_E_N_G_Editor() {document.getElementById('preview_E_N_G_Editor').style.height = '0px'}
