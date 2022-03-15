@@ -3,6 +3,7 @@
 /* Index.html */
 function on_dark_mode() {
     /* body */
+    document.body.classList.add('scroll-dark')
     document.body.style.background = "#212529"
     /* Off Button */
     document.getElementById("off_button").style.display = "block";
@@ -59,6 +60,7 @@ function on_dark_mode() {
 function off_dark_mode() {
 
     /* body */
+    document.body.classList.remove('scroll-dark')
     document.body.style.background = "#fff"    
     /* On Button */
     document.getElementById("on_button").style.display = "block";

@@ -18,15 +18,6 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/custom.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WC3X5DMNQK"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-WKEQ45L5YZ');
-    </script>
 </head>
 
 <body>
@@ -413,7 +404,7 @@
                         </li>
                         <li class="list-inline-item m-0">
                             <a class="text-light" target="_blank" href="https://drive.google.com/drive/folders/14vOL9UQbBRDOQt9QTzFdYsPnwuhQZQwT?usp=sharing">
-                                <img src="./assets/img/Google Drive.png" width="38px" height="38px" alt="Google Drive">
+                                <img src="./assets/img/Google Drive Footer.png" width="38px" height="38px" alt="Google Drive">
                             </a>
                         </li>
                     </ul>
@@ -446,37 +437,8 @@
     <section>
         <!-- Bootstrap -->
         <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <!-- Load jQuery require for isotope -->
-        <script src="assets/js/jquery.min.js"></script>
-        <!-- Isotope -->
-        <script src="assets/js/isotope.pkgd.js"></script>
-        <!-- Page Script -->
-        <script>
-            $(window).load(function() {
-                // init Isotope
-                var $projects = $('.projects').isotope({
-                    itemSelector: '.project',
-                    layoutMode: 'fitRows'
-                });
-                $(".filter-btn").click(function() {
-                    var data_filter = $(this).attr("data-filter");
-                    $projects.isotope({
-                        filter: data_filter
-                    });
-                    $(".filter-btn").removeClass("active");
-                    $(".filter-btn").removeClass("shadow");
-                    $(this).addClass("active");
-                    $(this).addClass("shadow");
-                    return false;
-                });
-            });
-        </script>
-        <!-- Templatemo -->
-        <script src="assets/js/templatemo.min.js"></script>
-        <!-- Custom -->
-        <script src="assets/js/custom.js"></script>
-        <!-- Dark Mode -->
-        <SCript src="./assets/js/dark-mode/index.min.js"></script>
+        <!-- Custom Script -->
+        <SCript src="./assets/js/Index.js"></script>
     </section>
 
 </body>

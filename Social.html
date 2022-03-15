@@ -18,15 +18,6 @@
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/custom.css">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WKEQ45L5YZ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-WKEQ45L5YZ');
-    </script>
 </head>
 
 <body class="transition-1s">
@@ -245,7 +236,7 @@
                         </section>
                         <section id="preview_Social_Portfolio" class="transition-1s mt-1 pt-1 overflow-hidden" style="align-self: center !important;">
                             <div>
-                                <span class="text-end closebtn-span mt-0 pt-0"><button id="p1" class="closebtn" onclick="off_Social_Portfolio()">&times;</button></span>
+                                <span class="text-end closebtn-span mt-0 pt-0"><a id="p1" class="closebtn" onclick="off_Social_Portfolio()">&times;</a></span>
                                 <br>
                             </div>
                             <div id="templatemo-slide-link-target" class="card mb-3 bg-transparent" style="margin: auto !important; align-self: center !important; border: none !important;">
@@ -383,26 +374,8 @@
 
     <!-- Bootstrap -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <!-- Load jQuery require for Page Script -->
-    <script src="assets/js/jquery.min.js"></script>
-    <!-- Page Script -->
-    <script>
-        $(window).load(function() {
-            // Slide
-            $('.templatemo-slide-link').click(function() {
-                var this_href = $(this).attr('href');
-                $('#templatemo-slide-link-target img').attr('src', this_href);
-                return false;
-            });
-            // End Slide
-        });
-    </script>
-    <!-- Templatemo -->
-    <script src="assets/js/templatemo.js"></script>
-    <!-- Custom 
-    <script src="assets/js/custom.js"></script>
-     Dark Mode -->
-    <script src="./assets/js/dark-mode/Beautified/dark.social.js"></script>
+    <!-- Custom Script -->
+    <script src="./assets/js/social.js"></script>
 </body>
 
 </html>
