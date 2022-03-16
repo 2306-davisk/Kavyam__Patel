@@ -267,11 +267,7 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
     width: 100%;
     height: 0px;
   }
-  /* English */
-  #preview_English_Portfolio  {
-    width: 100%;
-    height: 0px;
-  }
+  
   .closebtn-span {
     margin-left: 95%;
   }
@@ -280,10 +276,14 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
   .closebtn-span {
     margin-left: 87%;
   }
-}
+  }
 
 /* English */
-
+  /* English */
+  #preview_English_Portfolio  {
+    width: 100%;
+    height: 0px;
+  }
   /* Activity */
 
     /* First Flight */
@@ -469,6 +469,90 @@ html  {max-width: 100vw !important; overflow-x: hidden;}
         height: 0px;
       }
 
+/* SST */
+  /* Notes */
+    /* History */
+    /* 1 */
+    #Preview_N_H_1 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 2 */
+    #Preview_N_H_2 {
+      width: 100%;
+      height: 0px;
+    }
+    
+    /* Geography */
+    /* 1 */
+    #Preview_N_G_1 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 3 */
+    #Preview_N_G_3 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 4 */
+    #Preview_N_G_4 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 5 */
+    #Preview_N_G_5 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 6 */
+    #Preview_N_G_6 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 7 */
+    #Preview_N_G_7 {
+      width: 100%;
+      height: 0px;
+    }
+
+    /* Economics */
+    /* 1 */
+    #Preview_N_E_1 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 2 */
+    #Preview_N_E_2 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 3 */
+    #Preview_N_E_3 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 4 */
+    #Preview_N_E_4 {
+      width: 100%;
+      height: 0px;
+    }
+    
+    /* Democratic Politics */
+    /* 1 */
+    #Preview_N_DP_1 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 2 */
+    #Preview_N_DP_2 {
+      width: 100%;
+      height: 0px;
+    }
+    /* 6 */
+    #Preview_N_DP_6 {
+      width: 100%;
+      height: 0px;
+    }
 
 
 /* */ /* Dark Mode */ /* */

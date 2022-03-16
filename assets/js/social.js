@@ -74,6 +74,25 @@ function on_dark_social()   {
     document.getElementById('dev').classList.replace('bg-primary','bg-dark')
     /* close - btn */
     document.getElementById('p1').classList.replace('closebtn', 'closebtn-dark')
+    /* H */
+    document.getElementById('p2').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p3').classList.replace('closebtn', 'closebtn-dark')
+    /* G */
+    document.getElementById('p4').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p5').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p6').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p7').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p8').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p9').classList.replace('closebtn', 'closebtn-dark')
+    /* E */
+    document.getElementById('p10').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p11').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p12').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p13').classList.replace('closebtn', 'closebtn-dark')
+    /* DP */
+    document.getElementById('p14').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p15').classList.replace('closebtn', 'closebtn-dark')
+    document.getElementById('p16').classList.replace('closebtn', 'closebtn-dark')
 }
 function off_dark_social()   {
     /* button */
@@ -149,8 +168,81 @@ function off_dark_social()   {
     /* Footer */
     document.getElementById('about').classList.replace('bg-black','bg-secondary')
     document.getElementById('dev').classList.replace('bg-dark','bg-primary')
+    /* close - btn */
+    document.getElementById('p1').classList.replace('closebtn-dark','closebtn')
+    /* H */
+    document.getElementById('p2').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p3').classList.replace('closebtn-dark','closebtn')
+    /* G */
+    document.getElementById('p4').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p5').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p6').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p7').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p8').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p9').classList.replace('closebtn-dark','closebtn')
+    /* E */
+    document.getElementById('p10').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p11').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p12').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p13').classList.replace('closebtn-dark','closebtn')
+    /* DP */
+    document.getElementById('p14').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p15').classList.replace('closebtn-dark','closebtn')
+    document.getElementById('p16').classList.replace('closebtn-dark','closebtn')
+
 }
 
 /* Preview */
 function on_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = '600px';}
 function off_Social_Portfolio() {document.getElementById("preview_Social_Portfolio").style.height = "0px";}
+
+/* Preview - Notes */
+    /* History */
+    /* 1 */
+    function on_N_H_1()     {document.getElementById('Preview_N_H_1').style.height = '600px';return(off_N_H_2())}
+    function off_N_H_1()    {document.getElementById('Preview_N_H_1').style.height = '0px'}
+    /* 2 */
+    function on_N_H_2()     {document.getElementById('Preview_N_H_2').style.height = '600px';return(off_N_H_1())}
+    function off_N_H_2()    {document.getElementById('Preview_N_H_2').style.height = '0px'}
+    /* Geography */
+    /* 1 */
+    function on_N_G_1()     {document.getElementById('Preview_N_G_1').style.height = '600px';return(off_N_G_3(),off_N_G_4(),off_N_G_5(),off_N_G_6(),off_N_G_7())}
+    function off_N_G_1()    {document.getElementById('Preview_N_G_1').style.height = '0px'}
+    /* 3 */
+    function on_N_G_3()     {document.getElementById('Preview_N_G_3').style.height = '600px';return(off_N_G_1(),off_N_G_4(),off_N_G_5(),off_N_G_6(),off_N_G_7())}
+    function off_N_G_3()    {document.getElementById('Preview_N_G_3').style.height = '0px'}
+    /* 4 */
+    function on_N_G_4()     {document.getElementById('Preview_N_G_4').style.height = '600px';return(off_N_G_1,off_N_G_3(),off_N_G_5(),off_N_G_6(),off_N_G_7())}
+    function off_N_G_4()    {document.getElementById('Preview_N_G_4').style.height = '0px'}
+    /* 5 */
+    function on_N_G_5()     {document.getElementById('Preview_N_G_5').style.height = '600px';return(off_N_G_1,off_N_G_3(),off_N_G_4(),off_N_G_6(),off_N_G_7())}
+    function off_N_G_5()    {document.getElementById('Preview_N_G_5').style.height = '0px'}
+    /* 6 */
+    function on_N_G_6()     {document.getElementById('Preview_N_G_6').style.height = '600px';return(off_N_G_1,off_N_G_3(),off_N_G_4(),off_N_G_5(),off_N_G_7())}
+    function off_N_G_6()    {document.getElementById('Preview_N_G_6').style.height = '0px'}
+    /* 7 */
+    function on_N_G_7()     {document.getElementById('Preview_N_G_7').style.height = '600px';return(off_N_G_1,off_N_G_3(),off_N_G_4(),off_N_G_5(),off_N_G_6())}
+    function off_N_G_7()    {document.getElementById('Preview_N_G_7').style.height = '0px'}
+    /* Economics */
+    /* 1 */
+    function on_N_E_1()     {document.getElementById('Preview_N_E_1').style.height = '600px';return(off_N_E_2(),off_N_E_3(),off_N_E_4())}
+    function off_N_E_1()    {document.getElementById('Preview_N_E_1').style.height = '0px'}
+    /* 2 */
+    function on_N_E_2()     {document.getElementById('Preview_N_E_2').style.height = '600px';return(off_N_E_1(),off_N_E_3(),off_N_E_4())}
+    function off_N_E_2()    {document.getElementById('Preview_N_E_2').style.height = '0px'}
+    /* 3 */
+    function on_N_E_3()     {document.getElementById('Preview_N_E_3').style.height = '600px';return(off_N_E_1(),off_N_E_2(),off_N_E_4())}
+    function off_N_E_3()    {document.getElementById('Preview_N_E_3').style.height = '0px'}
+    /* 4 */
+    function on_N_E_4()     {document.getElementById('Preview_N_E_4').style.height = '600px';return(off_N_E_1(),off_N_E_2(),off_N_E_3())}
+    function off_N_E_4()    {document.getElementById('Preview_N_E_4').style.height = '0px'}
+    /* Democratic Politics */
+    /* 1 */
+    function on_N_DP_1()    {document.getElementById('Preview_N_DP_1').style.height = '600px';return(off_N_DP_2(),off_N_DP_6())}
+    function off_N_DP_1()   {document.getElementById('Preview_N_DP_1').style.height = '0px'}
+    /* 2 */
+    function on_N_DP_2()    {document.getElementById('Preview_N_DP_2').style.height = '600px';return(off_N_DP_1(),off_N_DP_6())}
+    function off_N_DP_2()   {document.getElementById('Preview_N_DP_2').style.height = '0px'}
+    /* 6 */
+    function on_N_DP_6()    {document.getElementById('Preview_N_DP_6').style.height = '600px';return(off_N_DP_1(),off_N_DP_2())}
+    function off_N_DP_6()   {document.getElementById('Preview_N_DP_6').style.height = '0px'}
